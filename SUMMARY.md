@@ -6,4 +6,5 @@
     * [Two Pointers](chapter1/lintcode/two-pointers.md)
       * [two sum](chapter1/lintcode/two-pointers/two-sum.md)
       * [Three sum](chapter1/lintcode/two-pointers/three-sum.md)
+      * [three sum closest](chapter1/lintcode/two-pointers/three-sum-closest.md)
 
