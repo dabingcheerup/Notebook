@@ -32,12 +32,11 @@ public class Solution {
             }
             map.put(target - numbers[i], i);
         }
-        
+
         int[] result = {};
         return result;
     }
 }
-
 ```
 
 # \*![](/assets/Screen Shot 2017-08-18 at 7.42.32 PM.png)
