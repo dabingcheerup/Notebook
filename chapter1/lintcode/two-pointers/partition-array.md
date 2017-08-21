@@ -1,6 +1,7 @@
 ![](/assets/Screen Shot 2017-08-20 at 3.06.45 PM.png)
 # Anlysis
 #### Idea:
+此题是in-place的模板，用到三个while
 1. two pointers 头尾指针交换
 2. 用两个while判断两种情况，判断条件 left <= right && nums[left]< k, 继续挪到左指针； left <= right && nums[right] >= k 继续挪动
 3. 若两者情况都不满足，left和right指针停住 可以进行交换
