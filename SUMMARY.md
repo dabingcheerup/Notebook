@@ -12,4 +12,10 @@
       * [sort letters by case](chapter1/lintcode/two-pointers/sort-letters-by-case.md)
       * [sort colors](chapter1/lintcode/two-pointers/sort-colors.md)
       * [longest substring without repeating characters](chapter1/lintcode/two-pointers/longest-substring-without-repeating-characters.md)
+      * [linked list cycle](chapter1/lintcode/two-pointers/linked-list-cycle.md)
+      * [remove element](chapter1/lintcode/two-pointers/remove-element.md)
+      * [remove duplicates from sorted array](chapter1/lintcode/two-pointers/remove-duplicates-from-sorted-array.md)
+      * [remove duplicates from sorted arrayII](chapter1/lintcode/two-pointers/remove-duplicates-from-sorted-arrayii.md)
+      * [partition list](chapter1/lintcode/two-pointers/partition-list.md)
+      * [container with most water](chapter1/lintcode/two-pointers/container-with-most-water.md)
 
