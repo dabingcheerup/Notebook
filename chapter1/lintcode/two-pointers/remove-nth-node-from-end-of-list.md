@@ -53,3 +53,5 @@ public class Solution {
 1. Linked List 的题基本考虑到用dummyNode
 2. 挪动指针 head = head.next  删除指针 
 
+![](/assets/Screen Shot 2017-08-22 at 9.46.21 PM.png)
+
