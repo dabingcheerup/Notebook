@@ -33,10 +33,15 @@
     * [String](chapter1/lintcode/string.md)
       * [add binary](chapter1/lintcode/string/add-binary.md)
       * [compare strings](chapter1/lintcode/string/compare-strings.md)
+      * [longest common substring](chapter1/lintcode/string/longest-common-substring.md)
+      * [longest common subsequence](chapter1/lintcode/string/longest-common-subsequence.md)
+      * [longest common prefix](chapter1/lintcode/string/longest-common-prefix.md)
       * [strStr](chapter1/lintcode/string/strstr.md)
       * [rotate string](chapter1/lintcode/string/rotate-string.md)
       * [reverse words in a string](chapter1/lintcode/string/reverse-words-in-a-string.md)
       * [unique characters](chapter1/lintcode/string/unique-characters.md)
       * [two strings are anagrams](chapter1/lintcode/string/two-strings-are-anagrams.md)
+      * [string permutation](chapter1/lintcode/string/string-permutation.md)
       * [count and say](chapter1/lintcode/string/count-and-say.md)
+      * longest common subsequence
 

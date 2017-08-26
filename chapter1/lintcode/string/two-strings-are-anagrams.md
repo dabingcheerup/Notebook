@@ -1,7 +1,7 @@
 ![](/assets/Screen Shot 2017-08-24 at 11.05.00 AM.png)
 #Analysis
 ####Idea:
-与Unique characters相似
+与Unique characters、string permutation相似
 1. 先判断两字符串长度相同 
 2. 两个for，第一个遍历s, 用int[]记录s中出现的字符，再遍历t, 出现的字符count--，相当于抵消。 如果count < 0证明不一样
 3. 注意数组中字符的标记是把字符转换为int类型作为index
