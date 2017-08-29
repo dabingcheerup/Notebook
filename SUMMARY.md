@@ -51,5 +51,5 @@
       * [@flatten list](chapter1/lintcode/recursion/flatten-list.md)
       * [maximum depth of binary tree](chapter1/lintcode/recursion/maximum-depth-of-binary-tree.md)
       * [subtree](chapter1/lintcode/recursion/subtree.md)
-      * [expression expand](chapter1/lintcode/recursion/expression-expand.md)
+      * [@expression expand](chapter1/lintcode/recursion/expression-expand.md)
 
