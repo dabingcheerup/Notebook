@@ -53,4 +53,17 @@
       * [subtree](chapter1/lintcode/recursion/subtree.md)
       * [@expression expand](chapter1/lintcode/recursion/expression-expand.md)
       * [flatten nested list iterator](chapter1/lintcode/recursion/flatten-nested-list-iterator.md)
+      * [gray code](chapter1/lintcode/recursion/gray-code.md)
+      * [N-queens](chapter1/lintcode/recursion/n-queens.md)
+      * [permutations](chapter1/lintcode/recursion/permutations.md)
+      * [print numbers by recursion](chapter1/lintcode/recursion/print-numbers-by-recursion.md)
+      * [restore IP addresses](chapter1/lintcode/recursion/restore-ip-addresses.md)
+      * [subset](chapter1/lintcode/recursion/subset.md)
+    * [DepthFirstSearch](chapter1/lintcode/depthfirstsearch.md)
+      * [flatten binary tree to linked list](chapter1/lintcode/depthfirstsearch/flatten-binary-tree-to-linked-list.md)
+      * [minimum depth of binary tree](chapter1/lintcode/depthfirstsearch/minimum-depth-of-binary-tree.md)
+      * [max depth of binary tree](chapter1/lintcode/depthfirstsearch/max-depth-of-binary-tree.md)
+      * [@find the missing number2](chapter1/lintcode/depthfirstsearch/find-the-missing-number2.md)
+    * Union Find
+    * [@graph valid tree](chapter1/lintcode/depthfirstsearch/graph-valid-tree.md)
 
