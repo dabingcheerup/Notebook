@@ -1,6 +1,7 @@
 ![](/assets/Screen Shot 2017-08-29 at 4.48.54 PM.png)
 #Analysis
 ####Idea:
+This problem can be converted to finding a cycle in a graph. It can be solved by using DFS (Recursion) or BFS (Queue).
 1. valid tree 条件 root 只有left 和 right两个children
 首先tree必须保证n个点只有n-1条边。然后必须保证所有点在一个联通分量中，并且无环。
 有两种方法：
@@ -126,3 +127,5 @@ public class Solution {
 
 ####Reference
 [1](https://aaronice.gitbooks.io/lintcode/content/union_find/graph_valid_tree.html)
+[Program Creek: Graph Valid Tree (Java) DFS & BFS](http://www.programcreek.com/2014/05/graph-valid-tree-java/)
+[Princeton Union Find](https://www.cs.princeton.edu/~rs/AlgsDS07/01UnionFind.pdf)
