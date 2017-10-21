@@ -88,4 +88,6 @@
           * [next permutation2](chapter1/lintcode/datastructure/linear/next-permutation.md)
           * [permutation sequence](chapter1/lintcode/datastructure/linear/permutation-sequence.md)
           * [reorder array to construct the minimum number](chapter1/lintcode/datastructure/linear/reorder-array-to-construct-the-minimum-number.md)
+* [JavaScript](javascript.md)
+  * [Algorithms](javascript/algorithms.md)
 
