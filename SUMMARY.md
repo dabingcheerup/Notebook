@@ -90,4 +90,5 @@
           * [reorder array to construct the minimum number](chapter1/lintcode/datastructure/linear/reorder-array-to-construct-the-minimum-number.md)
 * [JavaScript](javascript.md)
   * [Algorithms](javascript/algorithms.md)
+  * [Regular Expression](javascript/regular-expression.md)
 
