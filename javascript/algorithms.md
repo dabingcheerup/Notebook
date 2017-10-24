@@ -15,9 +15,21 @@ Fcc Advance Al **No repeats please**
 
 1. RegExp
 
-Fcc Advance Al
+Fcc Advance Al make a person
 
-1. **Module Pattern:** use closures to define public functions that can access private functions and variables.
+1. **Module Pattern:** use closures to define public functions that can access private functions and variables.
+2. [closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+3. [object model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
+
+Fcc Advance Al  Map the Debris
+
+1. Math.round\(\)
+2. Math.PI
+3. Math.sqrt\(\)
+4. Math.pow\(base, times\)
+5. Array with objects : arr =  \[{name : "sputnik", avgAlt : 35873.5553}\]
+   1. access to avgAlt: arr\[prop\].avgAlt
+   2. delete avgAlt: delete arr\[prop\].avgAlt
 
 
 
