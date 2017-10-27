@@ -91,4 +91,8 @@
 * [JavaScript](javascript.md)
   * [Algorithms](javascript/algorithms.md)
   * [Regular Expression](javascript/regular-expression.md)
+  * [error](javascript/error.md)
+* [HTML](html.md)
+  * [Element](element.md)
+    * [Button](element/button.md)
 
