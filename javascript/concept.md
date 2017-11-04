@@ -1,0 +1,1 @@
+$(this)	Selects the current HTML element
