@@ -96,4 +96,7 @@
 * [HTML](html.md)
   * [Element](element.md)
     * [Button](element/button.md)
+* [C](c.md)
+  * Concepts
+    * [Pointers](c/pointers.md)
 
