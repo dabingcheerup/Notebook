@@ -97,6 +97,7 @@
   * [Element](element.md)
     * [Button](element/button.md)
 * [C](c.md)
-  * Concepts
+  * [Concepts](c/concepts.md)
     * [Pointers](c/pointers.md)
+    * [function](c/function.md)
 
