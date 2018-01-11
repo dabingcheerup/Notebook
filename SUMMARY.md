@@ -88,16 +88,15 @@
           * [next permutation2](chapter1/lintcode/datastructure/linear/next-permutation.md)
           * [permutation sequence](chapter1/lintcode/datastructure/linear/permutation-sequence.md)
           * [reorder array to construct the minimum number](chapter1/lintcode/datastructure/linear/reorder-array-to-construct-the-minimum-number.md)
-* [JavaScript](javascript.md)
-  * [Algorithms](javascript/algorithms.md)
-  * [Regular Expression](javascript/regular-expression.md)
-  * [error](javascript/error.md)
-  * [basic](javascript/concept.md)
-* [HTML](html.md)
-  * [Element](element.md)
-    * [Button](element/button.md)
 * [C](c.md)
   * [Concepts](c/concepts.md)
     * [Pointers](c/pointers.md)
     * [function](c/function.md)
+* [FrontEnd](javascript.md)
+  * [Algorithms](javascript/algorithms.md)
+  * [error](javascript/error.md)
+  * [JavaScript](javascript/javascript.md)
+    * [webpack](javascript/javascript/webpack.md)
+  * CSS
+  * HTML
 
