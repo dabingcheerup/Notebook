@@ -64,6 +64,8 @@
       * [minimum depth of binary tree](chapter1/lintcode/depthfirstsearch/minimum-depth-of-binary-tree.md)
       * [@find the missing number2](chapter1/lintcode/depthfirstsearch/find-the-missing-number2.md)
       * [route between two nodes in graph](chapter1/lintcode/depthfirstsearch/route-between-two-nodes-in-graph.md)
+      * [Max Area of Island](chapter1/lintcode/depthfirstsearch/max-area-of-island.md)
+      * [Number of Islands](chapter1/lintcode/depthfirstsearch/number-of-islands.md)
     * [Union Find](chapter1/lintcode/union-find.md)
       * [@graph valid tree](chapter1/lintcode/depthfirstsearch/graph-valid-tree.md)
     * [DataStructure](chapter1/lintcode/datastructure.md)
