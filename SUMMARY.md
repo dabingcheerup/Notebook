@@ -110,4 +110,5 @@
       * [Differences between JDK, JRE and JVM](java/overview/jvm/differences-between-jdk-jre-and-jvm.md)
     * [Basic](java/overview/basic.md)
       * [Data types](java/overview/basic/data-types.md)
+      * [Variables](java/overview/basic/variables.md)
 
