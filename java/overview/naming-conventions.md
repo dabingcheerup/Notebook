@@ -23,7 +23,7 @@ There are various constants used in predefined classes like Float, Long, String 
 2. Subsequent components of the package name vary according to an organization’s own internal naming conventions.
 
 ##[file name and class name in Java](https://www.geeksforgeeks.org/myth-file-name-class-name-java/)
-1. “In java file name and class name should be the same”.
+1. In java file name and class name should be the same.
 2. If different, Command javac fileName is run and create a className.class without any error message since **the class is not public**
 3. It is possible to have many classes in a java file. For debugging purposes. Each class can be executed separately to test their functionalities(only on one condition: Inheritance concept should not be used).**Javac Trial.java** will create two .class files as **ForGeeks.class and GeeksTest.class** .
 Since each class has separate main() stub they can be tested individually.
