@@ -1,12 +1,21 @@
-![](/assets/Screen Shot 2018-01-15 at 2.02.08 PM.png)
+![](/assets/Screen Shot 2018-01-15 at 2.02.08 PM.png)  
 ![](/assets/Screen Shot 2018-01-15 at 2.02.53 PM.png)
-#Idea
-##DFS
-1. To count the area of each island using dfs(**helper function**).
-2. During the dfs, set the value of each point in the visited island to 0.
 
-#Solution
-##code
+# Idea
+
+## DFS
+
+1. 遍历，apply helper function
+2. helper function
+
+# Solution
+
+1. To count the area of each island using dfs\(**helper function**\).
+2. During the dfs, set the value of each point in the visited island to 0.
+3. Assume all four edge are surrounded by water which are all 0, so wouldn't have helper function, i-1 and j-1 couldn't be less than 0
+
+## code
+
 ```
 public int maxAreaOfIsland(int[][] grid){
     // result
@@ -31,5 +40,7 @@ public int helper(int[][] grid, int i , int j){
     }
     return 0;
 }
-
 ```
+
+
+

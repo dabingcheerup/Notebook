@@ -91,6 +91,7 @@
           * [permutation sequence](chapter1/lintcode/datastructure/linear/permutation-sequence.md)
           * [reorder array to construct the minimum number](chapter1/lintcode/datastructure/linear/reorder-array-to-construct-the-minimum-number.md)
           * [Wiggle sort](chapter1/lintcode/datastructure/linear/wiggle-sort.md)
+          * [Max Consecutive Ones ](chapter1/lintcode/datastructure/linear/max-consecutive-ones.md)
 * [C](c.md)
   * [Concepts](c/concepts.md)
     * [Pointers](c/pointers.md)
