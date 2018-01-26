@@ -112,4 +112,6 @@
     * [Basic](java/overview/basic.md)
       * [Data types](java/overview/basic/data-types.md)
       * [Variables](java/overview/basic/variables.md)
+      * [Loops](java/overview/basic/loops.md)
+      * [Control flow](java/overview/basic/control-flow.md)
 
