@@ -114,4 +114,5 @@
       * [Variables](java/overview/basic/variables.md)
       * [Loops](java/overview/basic/loops.md)
       * [Control flow](java/overview/basic/control-flow.md)
+      * [Widening Primitive Conversion](java/overview/basic/widening-primitive-conversion.md)
 
