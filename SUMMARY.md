@@ -115,4 +115,9 @@
       * [Loops](java/overview/basic/loops.md)
       * [Control flow](java/overview/basic/control-flow.md)
       * [Widening Primitive Conversion](java/overview/basic/widening-primitive-conversion.md)
+    * Data Structure
+      * [Linear](java/overview/linear.md)
+        * [Array](java/overview/linear/array.md)
+        * [LinkedList](java/overview/linear/linkedlist.md)
+        * [ArrayList](java/overview/linear/arraylist.md)
 
