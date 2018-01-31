@@ -11,7 +11,7 @@
 1. use hashmap key: target - numbers\[i\]  value: i 
 2. 如果numbers\[i\]不在hashmap中，意味着之前没有一个数的差为numbers\[i\], 故可以将target-numbers\[i\] 以及index i 存到表中。等待下一个数若与hashmap key 相等，返该数的index和value作为index1, index2。 故都+1
 
-# Solution
+#Solution
 
 ```
 public class Solution {
@@ -40,8 +40,6 @@ public class Solution {
 ```
 
 # \*![](/assets/Screen Shot 2017-08-18 at 7.42.32 PM.png)
-
-## 
 
 
 
