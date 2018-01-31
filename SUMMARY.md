@@ -6,7 +6,7 @@
     * [Two Pointers](chapter1/lintcode/two-pointers.md)
       * [two sum](chapter1/lintcode/two-pointers/two-sum.md)
       * [two sum\_input array is sorted](chapter1/lintcode/two-pointers/two-suminput-array-is-sorted.md)
-      * [@Three sum](chapter1/lintcode/two-pointers/three-sum.md)
+      * [Three sum](chapter1/lintcode/two-pointers/three-sum.md)
       * [three sum closest](chapter1/lintcode/two-pointers/three-sum-closest.md)
       * [four sum](chapter1/lintcode/two-pointers/four-sum.md)
       * [partition Array](chapter1/lintcode/two-pointers/partition-array.md)

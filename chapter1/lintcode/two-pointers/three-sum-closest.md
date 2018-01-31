@@ -1,10 +1,11 @@
 ![](/assets/Screen Shot 2017-08-20 at 9.58.30 AM.png)
+
 # Analysis
+
 #### 解题思路：
 
 1. 找所有3pair，一个for循环固定第一个数用i标记index，赋两个指针left = i+1、right = numbers.length - 1，找剩下的两个数。如果这三个数的和与target的绝对差最小，暂时记为bestSum。 
-2. 继续移动指针找其他两个数的组合。如果sum < target, left++； 如果sum > target, right--
-
+2. 继续移动指针找其他两个数的组合。如果sum &lt; target, left++； 如果sum &gt; target, right--
 
 ```
 public class Solution {
@@ -46,6 +47,11 @@ public class Solution {
     }
 };
 ```
+
 #### 知识点
-1. 绝对值 Math.abs()
-2. Array排序 Arrays.sort()
+
+1. 绝对值 Math.abs\(\)
+2. Array排序 Arrays.sort\(\)
+
+
+
