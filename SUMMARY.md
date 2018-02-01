@@ -92,6 +92,8 @@
           * [reorder array to construct the minimum number](chapter1/lintcode/datastructure/linear/reorder-array-to-construct-the-minimum-number.md)
           * [Wiggle sort](chapter1/lintcode/datastructure/linear/wiggle-sort.md)
           * [Max Consecutive Ones ](chapter1/lintcode/datastructure/linear/max-consecutive-ones.md)
+        * [LinkedList](chapter1/lintcode/datastructure/linear/linkedlist.md)
+          * [Add two numbers](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers.md)
 * [C](c.md)
   * [Concepts](c/concepts.md)
     * [Pointers](c/pointers.md)
