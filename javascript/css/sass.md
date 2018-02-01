@@ -25,5 +25,6 @@ Mac has ruby, just _gem install sass _
 #####Operators
 1. +, -, *, /, and %
 
-
+####Ref
+1. [Sass guide](https://sass-lang.com/guide)
 

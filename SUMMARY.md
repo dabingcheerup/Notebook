@@ -101,6 +101,7 @@
   * [error](javascript/error.md)
   * [JavaScript](javascript/javascript.md)
     * [webpack](javascript/javascript/webpack.md)
+    * [D3](javascript/javascript/d3.md)
   * [CSS](javascript/css.md)
     * [Sass](javascript/css/sass.md)
   * HTML
