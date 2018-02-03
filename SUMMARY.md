@@ -94,6 +94,7 @@
           * [Max Consecutive Ones ](chapter1/lintcode/datastructure/linear/max-consecutive-ones.md)
         * [LinkedList](chapter1/lintcode/datastructure/linear/linkedlist.md)
           * [Add two numbers](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers.md)
+          * [Add two numbers II](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers-ii.md)
 * [C](c.md)
   * [Concepts](c/concepts.md)
     * [Pointers](c/pointers.md)
