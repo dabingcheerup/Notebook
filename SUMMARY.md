@@ -95,6 +95,7 @@
         * [LinkedList](chapter1/lintcode/datastructure/linear/linkedlist.md)
           * [Add two numbers](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers.md)
           * [Add two numbers II](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers-ii.md)
+          * [Reverse Linked List](chapter1/lintcode/datastructure/linear/linkedlist/reverse-linked-list.md)
 * [C](c.md)
   * [Concepts](c/concepts.md)
     * [Pointers](c/pointers.md)

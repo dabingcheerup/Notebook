@@ -22,7 +22,7 @@
 
 #####解决方法可行性
 1. 用split分
-2. 用StringBuilder存放结果
+2. 用**StringBuilder存放结果**
 3. traverse split后得到的数组，从后往前读取    
         不是空格的话，sb.append(words[i]).append(" ")
 4. **处理结尾的空格**
