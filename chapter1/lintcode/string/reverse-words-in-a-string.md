@@ -7,6 +7,37 @@
 
 这样的话，就不能用两次reverse的方法了。
 
+#####题目假设
+1. 要求删除开头和结尾的多余空格。
+2. 如果两个单词之间有多余空格的话，也要删除。
+
+#####重要问题
+1. 空格
+2. 读取每个单词
+3. reverse单词的顺序
+
+#####直觉
+1. String类：str.split(reg, limit(到第index个停止))，返回一个数组
+2. 从后往前读取数组的元素，concat到res字符串中
+
+#####解决方法可行性
+1. 用split分
+2. 用StringBuilder存放结果
+3. traverse split后得到的数组，从后往前读取    
+        不是空格的话，sb.append(words[i]).append(" ")
+4. **处理结尾的空格**
+        sb.length()== 0 ? "" : sb.substring(0, sb.length()-1);   
+
+ 
+
+#####解决方案
+#####数据结构
+1. string.split()
+2. traverse array
+3. StringBuilder
+
+#####复杂度
+#####Code
 
 ```
 public class Solution {
