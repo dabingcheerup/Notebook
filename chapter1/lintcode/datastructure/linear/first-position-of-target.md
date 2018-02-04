@@ -2,6 +2,15 @@
 #Analysis
 ####Idea:
 Binary search : sorted array, find the first or last position 
+#####BS Template
+(find + sorted array = binary search)
+Template:
+    1. initialize: start, end, mid
+    2. while(start+1 < end) （最后找到只剩下start和end，然后再和target比较）
+        i. mid
+        ii.比较mid和target来update start，end（注意：在findFirstPos中，当mid == target，不能直接返回mid的index，因为有可能不是第一个，所以把mid作为end，再往前找）
+    3. 结束while后，start和end分别和target比较，哪个和target相同返回哪个。若都不同，返回-1
+
 
 
 ```

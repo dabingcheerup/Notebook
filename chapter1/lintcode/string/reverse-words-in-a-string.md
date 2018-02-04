@@ -17,7 +17,7 @@
 3. reverse单词的顺序
 
 #####直觉
-1. String类：str.split(reg, limit(到第index个停止))，返回一个数组
+1. String类：str.split(reg, limit(分割的份数))，返回一个数组
 2. 从后往前读取数组的元素，concat到res字符串中
 
 #####解决方法可行性
