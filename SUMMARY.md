@@ -101,6 +101,8 @@
           * [Add two numbers II](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers-ii.md)
           * [Reverse Linked List](chapter1/lintcode/datastructure/linear/linkedlist/reverse-linked-list.md)
           * [Reverse Linked List II](chapter1/lintcode/datastructure/linear/linkedlist/reverse-linked-list-ii.md)
+        * [HashTable](chapter1/lintcode/datastructure/linear/hashtable.md)
+          * [Longest Palindrome](chapter1/lintcode/datastructure/linear/hashtable/longest-palindrome.md)
 * [C](c.md)
   * [Concepts](c/concepts.md)
     * [Pointers](c/pointers.md)
