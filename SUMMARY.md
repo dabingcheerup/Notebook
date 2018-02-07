@@ -46,6 +46,7 @@
     * [longest common subsequence](chapter1/lintcode/string/longest-common-subsequence.md)
     * [big integer multiplication](chapter1/lintcode/string/big-integer-multiplication.md)
     * [Longest palindromic substring](chapter1/lintcode/string/longest-palindromic-substring.md)
+    * [Roman to integer](chapter1/lintcode/string/roman-to-integer.md)
   * [recursion](chapter1/lintcode/recursion.md)
     * [convert sorted array to binary search tree with minimal height](chapter1/lintcode/recursion/convert-sorted-array-to-binary-search-tree-with-minimal-height.md)
     * [@convert sorted list to balanced BST](chapter1/lintcode/recursion/convert-sorted-list-to-balanced-bst.md)
