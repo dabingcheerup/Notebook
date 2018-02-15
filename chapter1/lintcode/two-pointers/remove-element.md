@@ -2,8 +2,9 @@
 # Analysis
 #### Idea:
 与sort colors相似
-1. two pointers left: 当前字符 right: 可被替换的
-2. 前后扫，前面扫到elem, 与right替换，换到前面后left不变，再判断一次。因为换到前面的可能也是elem, 这样一直前后找elem,直到left和right相遇。
+1. left从0开始扫
+    1.扫到value就把当前right指向的放到left中等过后判断是否为vale，然后right--就相当于找到一个value
+    2.left没扫到value，就继续找，left++
 3. 返回right + 1以前的
 
 ####Error:
