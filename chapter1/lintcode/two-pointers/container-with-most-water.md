@@ -1,11 +1,12 @@
 ![](/assets/Screen Shot 2017-08-22 at 3.44.32 PM.png)、
-#Analysis
-####Idea:
-1. container的高由短的决定
+
+# Analysis
+
+#### Idea:
+
+1. container的高由短的决定，用Math.min找到短的作为高，因为任意找两个line作为边，由left和right决定，所以宽就是right-left
 2. ans记录最大area
-3. 左边比右边短 left++ 左边比右边大 right--
-
-
+3. 目标是找最大面积，所以若左边比右边短，保留右边，**left++去找更长的右边** 左边比右边大 right--
 
 ```
 public class Solution {
@@ -33,9 +34,13 @@ public class Solution {
 }
 ```
 
+#### 难点：
 
-####难点：
-1. 读不懂题【画图】
+1.  注意是任意找两个线作为边
 
 #### 知识点：
+
 1. coordinate: 坐标 slant: 倾斜++++++++++++
+
+
+

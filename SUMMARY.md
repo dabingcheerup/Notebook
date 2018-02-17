@@ -39,7 +39,7 @@
     * [find the duplicate number](chapter1/lintcode/two-pointers/find-the-duplicate-number.md)
     * [remove duplicates from sorted array](chapter1/lintcode/two-pointers/remove-duplicates-from-sorted-array.md)
     * [remove duplicates from sorted arrayII](chapter1/lintcode/two-pointers/remove-duplicates-from-sorted-arrayii.md)
-    * [@partition list](chapter1/lintcode/two-pointers/partition-list.md)
+    * [partition list](chapter1/lintcode/two-pointers/partition-list.md)
     * [container with most water](chapter1/lintcode/two-pointers/container-with-most-water.md)
     * [trapping rain water](chapter1/lintcode/two-pointers/trapping-rain-water.md)
     * [valid palindrome](chapter1/lintcode/two-pointers/valid-palindrome.md)
