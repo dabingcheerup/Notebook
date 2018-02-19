@@ -28,6 +28,7 @@ those have links to other pages or other websites as well.
     The **HTTP response** includes the content that the client requested, and then the client figures out what to do with that content. _HTTP is a plain-text, human-readable protocol that's used for exchanging data on the web._ 
     What that means is that if you could open up your web browser and look at the data that's going back and forth, it's just text. You would be able to read it. 
     HTTP is based on the client-server model. The client sends a request, which is not only the content that its asking for, but also information about the client. The server sends back the requested resource or content or page or data, but also information about the server itself.If we could look at all of that content that's going back and forth between the server, and the client, the request, and the response we'd see something that looks like this.
+
 ![](/assets/Screen Shot 2018-02-18 at 11.07.56 PM.png)
 
 1. the top is the request. The request is the client or the browser asking the server, can you please give me this information or this resource or this data.
