@@ -113,6 +113,8 @@
         * [Max Area of Island](chapter1/lintcode/depthfirstsearch/max-area-of-island.md)
         * [Number of Islands](chapter1/lintcode/depthfirstsearch/number-of-islands.md)
       * [Backtracking](chapter1/lintcode/backtracking.md)
+  * Math
+    * [Divide two integers](chapter1/lintcode/divide-two-integers.md)
 * [C](c.md)
   * [Concepts](c/concepts.md)
     * [Pointers](c/pointers.md)
