@@ -36,4 +36,4 @@ Dom event
     1. create a variable that store the html element acheived by document.getElementById()
     2. variable.addEventListener("eventName", call back function name)
     eventName is a special string like "click", "mouseout", "mouseover", "keyup"(e == 13 means press 'enter' key)
-    
+    ![](/assets/Screen Shot 2018-02-19 at 4.43.10 PM.png)
