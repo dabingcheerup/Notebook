@@ -39,11 +39,11 @@
     * [find the duplicate number](chapter1/lintcode/two-pointers/find-the-duplicate-number.md)
     * [remove duplicates from sorted array](chapter1/lintcode/two-pointers/remove-duplicates-from-sorted-array.md)
     * [remove duplicates from sorted arrayII](chapter1/lintcode/two-pointers/remove-duplicates-from-sorted-arrayii.md)
-    * [partition list](chapter1/lintcode/two-pointers/partition-list.md)
+    * [@partition list](chapter1/lintcode/two-pointers/partition-list.md)
     * [container with most water](chapter1/lintcode/two-pointers/container-with-most-water.md)
-    * [@trapping rain water](chapter1/lintcode/two-pointers/trapping-rain-water.md)
+    * [trapping rain water](chapter1/lintcode/two-pointers/trapping-rain-water.md)
     * [valid palindrome](chapter1/lintcode/two-pointers/valid-palindrome.md)
-    * [Interleaving positive and negative numbers](chapter1/lintcode/two-pointers/interleaving-positive-and-negative-numbers.md)
+    * Interleaving positive and negative numbers
     * [intersection of two arrays](chapter1/lintcode/two-pointers/intersection-of-two-arrays.md)
     * [intersection of two arrays2](chapter1/lintcode/two-pointers/intersection-of-two-arrays2.md)
     * [triangle count](chapter1/lintcode/two-pointers/triangle-count.md)
@@ -113,8 +113,6 @@
         * [Max Area of Island](chapter1/lintcode/depthfirstsearch/max-area-of-island.md)
         * [Number of Islands](chapter1/lintcode/depthfirstsearch/number-of-islands.md)
       * [Backtracking](chapter1/lintcode/backtracking.md)
-  * Math
-    * [Divide two integers](chapter1/lintcode/divide-two-integers.md)
 * [C](c.md)
   * [Concepts](c/concepts.md)
     * [Pointers](c/pointers.md)
@@ -125,15 +123,9 @@
   * [JavaScript](javascript/javascript.md)
     * [webpack](javascript/javascript/webpack.md)
     * [D3](javascript/javascript/d3.md)
-    * [basic](javascript/javascript/basic.md)
   * [CSS](javascript/css.md)
     * [Sass](javascript/css/sass.md)
-      * [transform](javascript/css/sass/transform.md)
-  * [HTML](javascript/html.md)
-  * Web
-    * [web browser](javascript/web-browser.md)
-    * Internet and world wide web
-  * [Bootstrap](javascript/bootstrap.md)
+  * HTML
 * [Java](java.md)
   * [Overview](java/overview.md)
     * [Naming Conventions](java/overview/naming-conventions.md)
