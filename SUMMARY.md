@@ -43,7 +43,7 @@
     * [container with most water](chapter1/lintcode/two-pointers/container-with-most-water.md)
     * [trapping rain water](chapter1/lintcode/two-pointers/trapping-rain-water.md)
     * [valid palindrome](chapter1/lintcode/two-pointers/valid-palindrome.md)
-    * Interleaving positive and negative numbers
+    * [Interleaving positive and negative numbers](chapter1/lintcode/two-pointers/interleaving-positive-and-negative-numbers.md)
     * [intersection of two arrays](chapter1/lintcode/two-pointers/intersection-of-two-arrays.md)
     * [intersection of two arrays2](chapter1/lintcode/two-pointers/intersection-of-two-arrays2.md)
     * [triangle count](chapter1/lintcode/two-pointers/triangle-count.md)
