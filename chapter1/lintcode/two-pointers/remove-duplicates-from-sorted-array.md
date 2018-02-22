@@ -2,10 +2,15 @@
 # Analysis
 ####Idea:
 这是sorted array
-1. two pointer i:标记最后一个不重复的数 j:标记当前扫到的数
-2. 若扫到的数nums[j]与nums[i]不等，i++指向下一个数，为重复的数，所以nums[j]赋值给nums[i] 一直下去 result是i + 1
-3. 若扫到的数nums[j]与nums[i]相等，j++，即i和j之间的数都是重复的
+1. two pointer i:标记最后一个不重复的数 init i = 0, j:标记当前要判断的数 init j = 1
+2. for loop(int j = 0; j < nums.length; j++) 
+若扫到的数nums[j]与nums[i]不等，
+    1. i++，此时i为第一个重复的数，所以
+    2. nums[i]=nums[j], 
+若扫到的数nums[j]与nums[i]相等，j++，继续找和i不重复的数，找到后就是i++, nums[i]和nums[j]交换
 
+i和j之间就是重复的数
+****
 
 ```
 public class Solution {
@@ -14,7 +19,7 @@ public class Solution {
      * @return : return an integer
      */
     public int removeDuplicates(int[] nums) {
-        // write your code here
+        // 重点：不要忘了CC
         if (nums == null || nums.length == 0) {
             return 0;
         }
@@ -25,7 +30,7 @@ public class Solution {
                 nums[i] = nums[j];
             }
         }
-        return i + 1;
+        return i + 1; //**
     }
 }
 ```
