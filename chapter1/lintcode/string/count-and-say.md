@@ -5,10 +5,10 @@
 2. oldString 存放当前要读的字符串
 3. while(--n > 0)保证n轮读
     1. 每一次都new StringBuilder存放读后的结果
-    2. 用字符数组存放oldString的字符，方便traverse **char[] oldChars = oldString.toCharArray()**
+    2. 用字符数组存放oldString的字符，方便用index traverse **char[] oldChars = oldString.toCharArray()**
     3. init count = 1
-    4. while统计重复的个数。重点：while中一定要有(i+1) < oldChars.length, 避免index out of bound和若到数组可退出。
-    5. while结束后，把读到的count和该数字加到sb中。若未到oldChars数组尾就继续读，继续sb后加。直到读完，**把sb赋给oldString**, 当前这轮结束，用updated的oldString继续下一轮直到n=0。
+    4. while统计重复的个数。重点：while中一定要有(i+1) < oldChars.length, 避免index out of bound和若到数组尾可退出while。
+    5. while结束后，把读到的count和该数字加到sb中。若未到oldChars数组尾就继续读，把读到的继续往sb后加。直到读完oldChars，**把sb赋给oldString**, 当前这轮结束，用updated的oldString继续下一轮直到n=0。
 
 
 ```
