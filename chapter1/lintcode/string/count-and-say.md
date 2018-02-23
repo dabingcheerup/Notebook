@@ -2,6 +2,13 @@
 #Analysis
 ####Idea:
 1. 就是把计算过程code出来
+2. oldString 存放当前要读的字符串
+3. while(--n > 0)保证n轮读
+    1. 每一次都new StringBuilder存放读后的结果
+    2. 用字符数组存放oldString的字符，方便traverse **char[] oldChars = oldString.toCharArray()**
+    3. init count = 1
+    4. while统计重复的个数。重点：while中一定要有(i+1) < oldChars.length, 避免index out of bound和若到数组可退出。
+    5. while结束后，把读到的count和该数字加到sb中。若未到oldChars数组尾就继续读，继续sb后加。直到读完，**把sb赋给oldString**, 当前这轮结束，用updated的oldString继续下一轮直到n=0。
 
 
 ```
@@ -28,7 +35,7 @@ public class Solution {
                 }
                 sb.append(String.valueOf(count) + String.valueOf(oldChars[i]));
             }
-            oldString = sb.toString();
+            oldString = sb.toString(); //*
         }
         return oldString;
         
@@ -36,8 +43,9 @@ public class Solution {
 }
 ```
 ####知识点：
-1. StringBuilder 创建字符串  sb.toString()
-2. String.toCharArray()
-3. String.valueOf()
+1. StringBuilder sb = new StringBuilder()  
+2. sb.toString() 把StringBuilder转换为字符串
+2. char[] charsArr = String.toCharArray() 把字符转换为字符数组，可通过index访问，方便for loop traverse字符串的字符
+3. String.valueOf() 转换为字符串
 
 
