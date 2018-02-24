@@ -127,7 +127,7 @@
     * [D3](javascript/javascript/d3.md)
     * [React](javascript/javascript/react.md)
       * [React Componet](javascript/javascript/react/react-componet.md)
-      * React events
+      * [React events](javascript/javascript/react/react-events.md)
   * [CSS](javascript/css.md)
     * [Sass](javascript/css/sass.md)
   * HTML
