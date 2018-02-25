@@ -70,9 +70,13 @@ and only changes the nodes that are affected.
    script tag: specifying the type  
    of the JavaScript which is text/**jsx**.
 
-##### JSX
+##### [JSX](http://buildwithreact.com/tutorial/jsx)
 
 JSX is **JavaScript XML Syntax Transform**, it's a way of putting HTML right into our JavaScript and then converting it to React code. JSX is a technology that converts HTML to JavaScript, so that we can then use it in the JavaScript function that renders a React component.
+
+1. value in "" is string, value in {} is JS expression. if use a variable, then sytax: {var}
+2. use className as attribute name instead of class 
+
 
 ###### Example
 
