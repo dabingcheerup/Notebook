@@ -62,10 +62,10 @@ and only changes the nodes that are affected.
 1. In our HTML page, create a div to represent a location where the React component will be placed.
 
    HTML  
-   head tag:   
+   head tag:  
    include the React JavaScript. \(As with jQuery, React is not part of the web browser by default, so we'll need to include React in the page.\)
 
-   body tag:   
+   body tag:  
    we'll have some div, which is where we'll place the React component.\( Sunch as Here I've labeled it with the ID container.\)  
    script tag: specifying the type  
    of the JavaScript which is text/**jsx**.
@@ -74,17 +74,15 @@ and only changes the nodes that are affected.
 
 JSX is **JavaScript XML Syntax Transform**, it's a way of putting HTML right into our JavaScript and then converting it to React code. JSX is a technology that converts HTML to JavaScript, so that we can then use it in the JavaScript function that renders a React component.
 
-1. value in "" is string, value in {} is JS expression. if use a variable, then sytax: {var}
-2. use className as attribute name instead of class 
-
+1. value in "" is string, value in {} is other JS expressions, like if use a variable, then sytax: {var}; or boolean value {true}
+2. one of the props is className, like class in JS. we can access props in definition of the component by this.props.name
 
 ###### Example
 
 ![](/assets/Screen Shot 2018-02-23 at 1.20.53 PM.png)
 
 1. we've specified JSX as the type of JavaScript.
-2. This function **ReactDOM.render**,
-   is going to be used to put this HTML at this location.
+2. This function **ReactDOM.render**, is going to render an instance of the component into document.body
 
 Notice that we're mixing the JavaScript, which is this and this, with HTML which is this. JSX allows us to do that in the appropriate places.
 
@@ -97,7 +95,7 @@ Notice that we're mixing the JavaScript, which is this and this, with HTML which
 
 3. Within the JavaScript tags, we'll use this function, **React-DOM.render** that specifies the HTML that we should put at that location. Using jsx\(javascript syntax\) we can embed HTML right into our JavaScript.Here, we'll just say Hello, React!  
    **The first argument:** specifies what we want to display  
-   **The second argument:** specifies where we're going to display it.   
+   **The second argument:** specifies where we're going to display it.  
    We'll select that element by its ID, that will be the div that we've labelled container.
 
 In the next few lessons, we'll dive much deeper into using React.  

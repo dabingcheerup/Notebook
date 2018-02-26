@@ -128,6 +128,7 @@
     * [React](javascript/javascript/react.md)
       * [React Componet](javascript/javascript/react/react-componet.md)
       * [React events](javascript/javascript/react/react-events.md)
+      * React component interaction
   * [CSS](javascript/css.md)
     * [Sass](javascript/css/sass.md)
   * HTML
