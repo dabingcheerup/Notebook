@@ -7,3 +7,7 @@ Structure:
 Def:
 When a browser make a request for a document, the html will be returned in **body of the http response** and displayed in the browser.
 Html decides the structure, the browser decides how the content displayed
+
+#####Ref
+1. [Learn to Code Advanced HTML & CSS](https://learn.shayhowe.com/advanced-html-css/)
+2. [Learn to Code](https://learn.shayhowe.com/html-css/)
