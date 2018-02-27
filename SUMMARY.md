@@ -17,6 +17,7 @@
     * Node.js
       * npm
     * [ES6](javascript/javascript/es6.md)
+    * [Bootstrap](javascript/javascript/bootstrap.md)
   * [CSS](javascript/css.md)
     * [Sass](javascript/css/sass.md)
   * [HTML](javascript/html.md)
