@@ -31,6 +31,8 @@
 * Sever
   * Python
     * [Flask](flask.md)
+* [Projects](projects.md)
+  * [Resume](projects/resume.md)
 
 ## Algorithms
 
