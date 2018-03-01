@@ -148,6 +148,7 @@
         * [Max Area of Island](chapter1/lintcode/depthfirstsearch/max-area-of-island.md)
         * [Number of Islands](chapter1/lintcode/depthfirstsearch/number-of-islands.md)
       * [Backtracking](chapter1/lintcode/backtracking.md)
+        * [Combinations Sum](chapter1/lintcode/backtracking/combinations-sum.md)
       * Permutation
         * [Next permutation](chapter1/lintcode/next-permutation.md)
 * [Cracking the interviews](chapter1/cracking-the-interviews.md)
