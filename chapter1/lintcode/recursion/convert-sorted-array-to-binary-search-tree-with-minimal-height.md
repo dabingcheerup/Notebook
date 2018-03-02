@@ -32,12 +32,12 @@ public class Solution {
         return helper (A, 0, A.length - 1);
     }
     public TreeNode helper(int[] A, int left, int right) {
-        if (left > right) {
+        if (left > right) { //和BS模板一样，左右指针相遇
             return null;
         }
         int m = (left + right) / 2;
         TreeNode root = new TreeNode(A[m]);
-        root.left = helper(A, left, m - 1);
+        root.left = helper(A, left, m - 1); //m-1
         root.right = helper(A, m + 1, right);
         return root;
     }

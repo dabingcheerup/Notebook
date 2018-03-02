@@ -129,7 +129,7 @@
       * Divid and Conquer
       * [recursion](chapter1/lintcode/recursion.md)
         * [convert sorted array to binary search tree with minimal height](chapter1/lintcode/recursion/convert-sorted-array-to-binary-search-tree-with-minimal-height.md)
-        * [@convert sorted list to balanced BST](chapter1/lintcode/recursion/convert-sorted-list-to-balanced-bst.md)
+        * [convert sorted list to balanced BST](chapter1/lintcode/recursion/convert-sorted-list-to-balanced-bst.md)
         * [@flatten list](chapter1/lintcode/recursion/flatten-list.md)
         * [maximum depth of binary tree](chapter1/lintcode/recursion/maximum-depth-of-binary-tree.md)
         * [subtree](chapter1/lintcode/recursion/subtree.md)
