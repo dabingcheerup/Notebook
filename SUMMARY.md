@@ -137,7 +137,6 @@
         * [flatten nested list iterator](chapter1/lintcode/recursion/flatten-nested-list-iterator.md)
         * [gray code](chapter1/lintcode/recursion/gray-code.md)
         * [N-queens](chapter1/lintcode/recursion/n-queens.md)
-        * [permutations](chapter1/lintcode/recursion/permutations.md)
         * [print numbers by recursion](chapter1/lintcode/recursion/print-numbers-by-recursion.md)
         * [restore IP addresses](chapter1/lintcode/recursion/restore-ip-addresses.md)
         * [subset](chapter1/lintcode/recursion/subset.md)
@@ -150,6 +149,8 @@
         * [Number of Islands](chapter1/lintcode/depthfirstsearch/number-of-islands.md)
       * [Backtracking](chapter1/lintcode/backtracking.md)
         * [Combinations Sum](chapter1/lintcode/backtracking/combinations-sum.md)
+        * [permutations](chapter1/lintcode/recursion/permutations.md)
+        * [permutations II](chapter1/lintcode/backtracking/permutations-ii.md)
       * Permutation
         * [Next permutation](chapter1/lintcode/next-permutation.md)
 * [Cracking the interviews](chapter1/cracking-the-interviews.md)
