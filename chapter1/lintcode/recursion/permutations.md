@@ -4,7 +4,8 @@
 
 #### Idea:
 
-Backtracking
+1. Backtracking
+2. 若temp中已有当前元素就continue跳过
 
 ```
 public class Solution {
@@ -29,5 +30,8 @@ public class Solution {
 }
 ```
 
-
+#####Syntax
+1. ArrayList.size()
+2. ArrayList.contains(ele)
+3. ArrayList.add(ele)
 
