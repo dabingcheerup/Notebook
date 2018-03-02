@@ -1,6 +1,5 @@
 ![](/assets/Screen Shot 2017-09-02 at 11.49.02 AM.png)
 
-
 ```
 public class Solution {
     /*
@@ -12,7 +11,7 @@ public class Solution {
         if (A == null) {
             return 1;
         }
-        // 遍历第一遍，通过交换把相应的数放到相应的位置
+        // 遍历第一遍，通过交换把相应的数放到相应的位置, 跳过negative
         for (int i = 0; i < A.length; i++) {
             while (A[i] > 0 && A[i] <= A.length && A[i] != (i + 1)) {
                 int temp = A[A[i] - 1];
@@ -34,6 +33,8 @@ public class Solution {
 }
 ```
 
-####Reference
-[参考1](https://zhengyang2015.gitbooks.io/lintcode/first_missing_positive_189.html)
+#### Reference
+
+[参考1](https://zhengyang2015.gitbooks.io/lintcode/first_missing_positive_189.html)  
 ![](/assets/Screen Shot 2017-09-02 at 3.33.38 PM.png)
+
