@@ -38,7 +38,7 @@ Char Array
 HashMap
 1. map.put(key, value)
 2. map.get(key)
-3. map.values() //
+3. map.values() //The values() method is used to return a Collection view of the values contained in this map.
 
 ArrayList
 1. new ArrayList<List<\/String>>(map.values())
