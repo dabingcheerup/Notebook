@@ -1,5 +1,5 @@
 #####Idea:
-1. HashMap key 存放 anagrams, value 存放对应group
+1. HashMap key 存放 anagrams, value 存放对应group(List\<\String\>\)
 2. traverse strs, convert each string to char array, then sort it, and compare to anagram.
 3. 注意
     1. 用变量存放sorted char array
@@ -12,8 +12,8 @@
 ```
 public class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        if (strs == null || strs.length == 0) return new ArrayList<List<String>>();
-        Map<String, List<String>> map = new HashMap<String, List<String>>();
+        if (strs == null || strs.length == 0) return new ArrayList<List<String>>(); //*
+        Map<String, List<String>> map = new HashMap<String, List<String>>(); //*
         //*convert each string to char[] array
         for (String s : strs) {
             char[] ca = s.toCharArray();
@@ -26,6 +26,19 @@ public class Solution {
     }
 }
 ```
+#####Error
+
+
+```
+error: no suitable method found for put (String,ArrayList <String>)
+原因：
+Map<String, List<String>> map = new HashMap<String, Integer>();
+map.put(anagram, new ArrayList<>());
+改进： value需是 List<String>() 才能put ArrayList
+Map<String, List<String>> map = new HashMap<String, List<String>>();
+
+```
+
 
 #####Syntax
 String
@@ -38,7 +51,8 @@ Char Array
 HashMap
 1. map.put(key, value)
 2. map.get(key)
-3. map.values() //The values() method is used to return a Collection view of the values contained in this map.
+3. map.containsKey()
+4. map.values() //The values() method is used to return a Collection view of the values contained in this map.
 
 ArrayList
 1. new ArrayList<List<\/String>>(map.values())

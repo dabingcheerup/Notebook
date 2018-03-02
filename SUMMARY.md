@@ -41,7 +41,7 @@
     * [add binary](chapter1/lintcode/string/add-binary.md)
     * [compare strings](chapter1/lintcode/string/compare-strings.md)
     * [two strings are anagrams](chapter1/lintcode/string/two-strings-are-anagrams.md)
-    * [@anagrams](chapter1/lintcode/string/anagrams.md)
+    * [anagrams](chapter1/lintcode/string/anagrams.md)
     * [Group anagrams](chapter1/lintcode/string/group-anagrams.md)
     * [longest common substring](chapter1/lintcode/string/longest-common-substring.md)
     * [longest common subsequence](chapter1/lintcode/string/longest-common-subsequence.md)
@@ -154,6 +154,8 @@
         * [permutations II](chapter1/lintcode/backtracking/permutations-ii.md)
       * Permutation
         * [Next permutation](chapter1/lintcode/next-permutation.md)
+  * [Math](chapter1/lintcode/math.md)
+    * [Pow\(x, n\)](chapter1/lintcode/math/powx-n.md)
 * [Cracking the interviews](chapter1/cracking-the-interviews.md)
 * Facebook
 
