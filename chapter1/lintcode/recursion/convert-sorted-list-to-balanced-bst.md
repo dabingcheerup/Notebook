@@ -73,7 +73,7 @@ public class Solution {
 ####Idea2:
 1. 用快慢指针找到中点作为root，左半边recursively调用函数作为root.left
 2. toBST中用tail来看是否到尾，就不用fast != null && fast.next != null(fast.next 不能为null，不然fast.next.next就会出错)
-
+3. ListNode是linkedlist的，TreeNode是BST的
 ```
 public TreeNode sortedListToBST(ListNode head) {
     if(head==null) return null; //return null, toBST中的也要判断CC
