@@ -27,7 +27,7 @@ class Solution {
         boolean eSeen = false;
         boolean numberSeen = false;
         for(int i=0; i<s.length(); i++) {
-            if('0' <= s.charAt(i) && s.charAt(i) <= '9') {
+            if('0' <= s.charAt(i) && s.charAt(i) <= '9') { //*
                 numberSeen = true;
             } else if(s.charAt(i) == '.') {
                 if(eSeen || pointSeen)
