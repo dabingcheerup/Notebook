@@ -95,7 +95,7 @@
         * [Search in rotated sorted array II](chapter1/lintcode/datastructure/linear/search-in-rotated-sorted-array-ii.md)
         * [unique path](chapter1/lintcode/datastructure/linear/unique-path.md)
         * [median](chapter1/lintcode/datastructure/linear/median.md)
-        * [@merge intervals](chapter1/lintcode/datastructure/linear/merge-intervals.md)
+        * [merge intervals](chapter1/lintcode/datastructure/linear/merge-intervals.md)
         * [merge sorted array](chapter1/lintcode/datastructure/linear/merge-sorted-array.md)
         * [@merge two sorted Array](chapter1/lintcode/datastructure/linear/merge-two-sorted-array.md)
         * [recover rotated sorted array ](chapter1/lintcode/datastructure/linear/recover-rotated-sorted-array.md)

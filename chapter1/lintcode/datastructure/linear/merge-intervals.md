@@ -93,4 +93,6 @@ LinkedList
 Math
 1. Math.max(,) / Math.min(,)
 
+#####Ref:
+1. [jianshu](https://www.jianshu.com/p/0151ea436c9a)
 ![](/assets/Screen Shot 2017-08-31 at 3.15.03 PM.png)
