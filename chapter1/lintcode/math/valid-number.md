@@ -49,5 +49,6 @@ class Solution {
 }
 ```
 
-
+#####Ref
+1. [[LeetCode] Valid Number 验证数字](http://www.cnblogs.com/grandyang/p/4084408.html)
 
