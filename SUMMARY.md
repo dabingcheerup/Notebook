@@ -156,6 +156,7 @@
         * [Next permutation](chapter1/lintcode/next-permutation.md)
   * [Math](chapter1/lintcode/math.md)
     * [Pow\(x, n\)](chapter1/lintcode/math/powx-n.md)
+    * [Valid Number](chapter1/lintcode/math/valid-number.md)
 * [Cracking the interviews](chapter1/cracking-the-interviews.md)
 * Facebook
 

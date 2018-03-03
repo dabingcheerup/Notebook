@@ -95,4 +95,6 @@ Math
 
 #####Ref:
 1. [jianshu](https://www.jianshu.com/p/0151ea436c9a)
+2. [深入浅出 Java 8 Lambda 表达式](http://blog.oneapm.com/apm-tech/226.html)
+3.  [Java Lambda表达式入门](http://blog.csdn.net/renfufei/article/details/24600507)
 ![](/assets/Screen Shot 2017-08-31 at 3.15.03 PM.png)
