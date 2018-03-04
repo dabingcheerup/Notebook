@@ -3,7 +3,7 @@
 #### Idea:
 1. 用三个指针：left：记录第一个为1的位置、right：记录第一个不为2的位置、i：当前需要判断的位置
 2. 初始化 left = 0、right = nums.length - 1、 i = 0  
-3. while i <= right
+3. while i <= right (i代表已经检查完了i个数，right代表其后都是2，所以两者相遇代表没有需要检查的数了)
 4. 若nums[i] = 0，就与第一个1即left交换，left挪到下一个位置，i挪到下一个位置继续判断  若nums[i] = 1，则略过，i继续往下走  若nums[i] = 2, 就与第一个不为2的数交换即right，因为不确定该数nums[right]是0还是1，所以i不变，再判断一次，而right往前挪一位更新标记第一个不为2的数
 
 
@@ -19,7 +19,7 @@ class Solution {
             return;
         }
         int left = 0, right =nums.length - 1, i = 0;
-        while (i <= right) { // wrong: i < right
+        while (i <= right) { //* wrong: i < right
             if (nums[i] == 0) {
                 swap(nums, i, left);
                 left++;
