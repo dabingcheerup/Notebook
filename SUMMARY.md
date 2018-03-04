@@ -125,6 +125,7 @@
         * [Longest Palindrome](chapter1/lintcode/datastructure/linear/hashtable/longest-palindrome.md)
       * [Stack](chapter1/lintcode/datastructure/linear/stack.md)
         * [Valid Parentheses](chapter1/lintcode/datastructure/linear/stack/valid-parentheses.md)
+        * [Simplified Path](chapter1/lintcode/datastructure/linear/stack/simplified-path.md)
   * Algorithms
     * [Dynamic Programming](chapter1/lintcode/dynamic-programming.md)
       * [Climbing Stairs](chapter1/lintcode/dynamic-programming/climbing-stairs.md)
