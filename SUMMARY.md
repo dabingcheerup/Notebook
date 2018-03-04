@@ -56,6 +56,7 @@
     * [big integer multiplication](chapter1/lintcode/string/big-integer-multiplication.md)
     * [Longest palindromic substring](chapter1/lintcode/string/longest-palindromic-substring.md)
     * [Roman to integer](chapter1/lintcode/string/roman-to-integer.md)
+    * [Text Justification](chapter1/lintcode/string/text-justification.md)
   * [Two Pointers](chapter1/lintcode/two-pointers.md)
     * [two sum](chapter1/lintcode/two-pointers/two-sum.md)
     * [two sum\_input array is sorted](chapter1/lintcode/two-pointers/two-suminput-array-is-sorted.md)
@@ -157,6 +158,7 @@
   * [Math](chapter1/lintcode/math.md)
     * [Pow\(x, n\)](chapter1/lintcode/math/powx-n.md)
     * [Valid Number](chapter1/lintcode/math/valid-number.md)
+    * [Sqrt\(x\)](chapter1/lintcode/math/sqrtx.md)
 * [Cracking the interviews](chapter1/cracking-the-interviews.md)
 * Facebook
 
