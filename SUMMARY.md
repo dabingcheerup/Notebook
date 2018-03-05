@@ -144,7 +144,6 @@
         * [N-queens](chapter1/lintcode/recursion/n-queens.md)
         * [print numbers by recursion](chapter1/lintcode/recursion/print-numbers-by-recursion.md)
         * [restore IP addresses](chapter1/lintcode/recursion/restore-ip-addresses.md)
-        * [subset](chapter1/lintcode/recursion/subset.md)
       * [DepthFirstSearch](chapter1/lintcode/depthfirstsearch.md)
         * [flatten binary tree to linked list](chapter1/lintcode/depthfirstsearch/flatten-binary-tree-to-linked-list.md)
         * [minimum depth of binary tree](chapter1/lintcode/depthfirstsearch/minimum-depth-of-binary-tree.md)
@@ -157,6 +156,8 @@
         * [permutations](chapter1/lintcode/recursion/permutations.md)
         * [permutations II](chapter1/lintcode/backtracking/permutations-ii.md)
         * [word search](chapter1/lintcode/backtracking/word-search.md)
+        * [subset](chapter1/lintcode/recursion/subset.md)
+        * [Subset II](chapter1/lintcode/backtracking/subset-ii.md)
       * Permutation
         * [Next permutation](chapter1/lintcode/next-permutation.md)
   * [Math](chapter1/lintcode/math.md)
