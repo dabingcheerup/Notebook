@@ -123,6 +123,7 @@
         * [Merge k Sorted LinkedLists](chapter1/lintcode/datastructure/linear/linkedlist/merge-k-sorted-linkedlists.md)
       * [HashTable](chapter1/lintcode/datastructure/linear/hashtable.md)
         * [Longest Palindrome](chapter1/lintcode/datastructure/linear/hashtable/longest-palindrome.md)
+        * [Minimum Window Substring](chapter1/lintcode/datastructure/linear/hashtable/minimum-window-substring.md)
       * [Stack](chapter1/lintcode/datastructure/linear/stack.md)
         * [Valid Parentheses](chapter1/lintcode/datastructure/linear/stack/valid-parentheses.md)
         * [Simplified Path](chapter1/lintcode/datastructure/linear/stack/simplified-path.md)
@@ -155,6 +156,7 @@
         * [Combinations Sum](chapter1/lintcode/backtracking/combinations-sum.md)
         * [permutations](chapter1/lintcode/recursion/permutations.md)
         * [permutations II](chapter1/lintcode/backtracking/permutations-ii.md)
+        * [word search](chapter1/lintcode/backtracking/word-search.md)
       * Permutation
         * [Next permutation](chapter1/lintcode/next-permutation.md)
   * [Math](chapter1/lintcode/math.md)
