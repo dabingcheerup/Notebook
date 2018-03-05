@@ -98,7 +98,7 @@
         * [median](chapter1/lintcode/datastructure/linear/median.md)
         * [merge intervals](chapter1/lintcode/datastructure/linear/merge-intervals.md)
         * [merge sorted array](chapter1/lintcode/datastructure/linear/merge-sorted-array.md)
-        * [@merge two sorted Array](chapter1/lintcode/datastructure/linear/merge-two-sorted-array.md)
+        * [merge two sorted Array](chapter1/lintcode/datastructure/linear/merge-two-sorted-array.md)
         * [recover rotated sorted array ](chapter1/lintcode/datastructure/linear/recover-rotated-sorted-array.md)
         * [plus one](chapter1/lintcode/datastructure/linear/plus-one.md)
         * [@pattern](chapter1/lintcode/datastructure/linear/pattern.md)
