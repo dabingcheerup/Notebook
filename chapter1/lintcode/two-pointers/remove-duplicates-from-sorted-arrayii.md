@@ -7,6 +7,15 @@
 与前一道题基本相同  
 1. 额外用一个boolean表示是否可以添加重复元素，只有boolean为true时才能添加重复元素。当添加一个新元素时，boolean设置为true，当添加一个重复元素后，boolean设置为false。
 
+2. two pointers, i 最后一个合格数，i = 0； j 当前要判断的数 j=1
+    nums[i] != nums[j], 
+        增加多一个合格数，所以把nums[j]放到nums[++i]上，即nums[++i] = nums[j];     
+        j++;判断下一个数
+        addMore = true; 可以再加一个 
+    若相等，首先确定addMore是否为true，
+        为true，nums[++i] = nums[j]
+        addMore = false; 不能再加了
+
 ```
 public class Solution {
     /**
@@ -19,7 +28,7 @@ public class Solution {
             return 0;
         }
         boolean addMore = true;
-        int i = 0;
+        int i = 0; //*不能放在for loop中，否则for loop结束后就销毁了
         for (int j = 1; j < nums.length; j++) {
             if (nums[i] != nums[j]) {
                 nums[++i] = nums[j];
