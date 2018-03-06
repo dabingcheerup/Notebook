@@ -12,3 +12,5 @@
     
     I also had to restart my computer after installing node.js and again for Git Bash
     gulp then works as it does in your demonstration.
+
+[Webpack fails to load bootstrap v4.0.0-beta](https://stackoverflow.com/questions/45660672/webpack-fails-to-load-bootstrap-v4-0-0-beta)

@@ -33,6 +33,7 @@
     * [Flask](flask.md)
 * [Projects](projects.md)
   * [Resume](projects/resume.md)
+* [Git](git.md)
 
 ## Algorithms
 
