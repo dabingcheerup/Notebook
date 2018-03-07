@@ -188,6 +188,7 @@
         * [LinkedList](java/overview/linear/linkedlist.md)
         * [ArrayList](java/overview/linear/arraylist.md)
   * [Software](java/software.md)
+  * [QA](java/qa.md)
 * [C](c.md)
   * [Concepts](c/concepts.md)
     * [Pointers](c/pointers.md)
