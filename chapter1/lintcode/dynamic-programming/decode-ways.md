@@ -65,3 +65,7 @@ class Solution {
 
 ```
 
+#####Syntax
+String to Integer
+1. Integer.valueOf(s.substring(i-1, i))
+2. Integer.parseInt(s.substring(i,i+2))
