@@ -131,6 +131,7 @@
   * Algorithms
     * [Dynamic Programming](chapter1/lintcode/dynamic-programming.md)
       * [Climbing Stairs](chapter1/lintcode/dynamic-programming/climbing-stairs.md)
+      * [Decode Ways](chapter1/lintcode/dynamic-programming/decode-ways.md)
     * [Search/Recursion/Backtracking](chapter1/lintcode/searchrecursionbacktracking.md)
       * Divid and Conquer
       * [recursion](chapter1/lintcode/recursion.md)
