@@ -130,7 +130,6 @@
         * [Simplified Path](chapter1/lintcode/datastructure/linear/stack/simplified-path.md)
       * [Queue](chapter1/lintcode/datastructure/linear/queue.md)
         * [Binary Tree Level Order Traversal](chapter1/lintcode/datastructure/linear/queue/binary-tree-level-order-traversal.md)
-        * Binary Tree Level Order TreeII
   * Algorithms
     * [Dynamic Programming](chapter1/lintcode/dynamic-programming.md)
       * [Climbing Stairs](chapter1/lintcode/dynamic-programming/climbing-stairs.md)
