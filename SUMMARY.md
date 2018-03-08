@@ -115,6 +115,8 @@
         * [Wiggle sort](chapter1/lintcode/datastructure/linear/wiggle-sort.md)
         * Search in rotated sorted array II
         * [First missing positive](chapter1/lintcode/datastructure/linear/first-missing-positive.md)
+        * [Best time to Buy and Sell Stock](chapter1/lintcode/datastructure/linear/best-time-to-buy-and-sell-stock.md)
+        * [Best Time to Buy and Sell Stock II](chapter1/lintcode/datastructure/linear/best-time-to-buy-and-sell-stock-ii.md)
       * [LinkedList](chapter1/lintcode/datastructure/linear/linkedlist.md)
         * [Add two numbers](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers.md)
         * [Add two numbers II](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers-ii.md)
