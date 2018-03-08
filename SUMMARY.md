@@ -128,6 +128,9 @@
       * [Stack](chapter1/lintcode/datastructure/linear/stack.md)
         * [Valid Parentheses](chapter1/lintcode/datastructure/linear/stack/valid-parentheses.md)
         * [Simplified Path](chapter1/lintcode/datastructure/linear/stack/simplified-path.md)
+      * [Queue](chapter1/lintcode/datastructure/linear/queue.md)
+        * [Binary Tree Level Order Traversal](chapter1/lintcode/datastructure/linear/queue/binary-tree-level-order-traversal.md)
+        * Binary Tree Level Order TreeII
   * Algorithms
     * [Dynamic Programming](chapter1/lintcode/dynamic-programming.md)
       * [Climbing Stairs](chapter1/lintcode/dynamic-programming/climbing-stairs.md)
@@ -153,6 +156,7 @@
         * [route between two nodes in graph](chapter1/lintcode/depthfirstsearch/route-between-two-nodes-in-graph.md)
         * [Max Area of Island](chapter1/lintcode/depthfirstsearch/max-area-of-island.md)
         * [Number of Islands](chapter1/lintcode/depthfirstsearch/number-of-islands.md)
+        * [Valid Binary Search Tree](chapter1/lintcode/depthfirstsearch/valid-binary-search-tree.md)
       * [Backtracking](chapter1/lintcode/backtracking.md)
         * [Combinations Sum](chapter1/lintcode/backtracking/combinations-sum.md)
         * [permutations](chapter1/lintcode/recursion/permutations.md)
