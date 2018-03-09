@@ -159,6 +159,7 @@
         * [Max Area of Island](chapter1/lintcode/depthfirstsearch/max-area-of-island.md)
         * [Number of Islands](chapter1/lintcode/depthfirstsearch/number-of-islands.md)
         * [Valid Binary Search Tree](chapter1/lintcode/depthfirstsearch/valid-binary-search-tree.md)
+        * [Clone Graph](chapter1/lintcode/depthfirstsearch/clone-graph.md)
       * [Backtracking](chapter1/lintcode/backtracking.md)
         * [Combinations Sum](chapter1/lintcode/backtracking/combinations-sum.md)
         * [permutations](chapter1/lintcode/recursion/permutations.md)
