@@ -1,10 +1,12 @@
-![](/assets/Screen Shot 2018-03-08 at 5.39.59 PM.png)
+![](/assets/Screen Shot 2018-03-08 at 5.39.59 PM.png)  
 ![](/assets/Screen Shot 2018-03-08 at 5.40.33 PM.png)
-#####Idea
+
+##### Idea
+
+DFS
+
 1. HashMap 存放cloned nodes
 2. 递归调用clone函数去clone node
-
-
 
 ```
 /**
@@ -22,11 +24,11 @@ public class Solution {
         // call clone funct
         return clone(node);
     }
-    
+
     private UndirectedGraphNode clone(UndirectedGraphNode node) {
         //CC node is null return null
         if(node == null) return null;
-        
+
         //check if it is cloned, if so return it
         if(map.containsKey(node.label)) {
             return map.get(node.label);
@@ -40,7 +42,7 @@ public class Solution {
         return clone;
     }
 }
-
-
 ```
+
+
 
