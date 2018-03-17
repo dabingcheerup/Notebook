@@ -10,3 +10,4 @@
 3. [Setting Up Webpack for Bootstrap 4 and Font Awesome](https://medium.com/@estherfalayi/setting-up-webpack-for-bootstrap-4-and-font-awesome-eb276e04aaeb)
     要把bootstrap.min.js, jquery.min.js, and tether.min.js 放到project内，这里我放在了index.jsx所在的js folder 里
 
+4. [Installing Bootstrap 4 Tutorial](https://coursetro.com/posts/design/72/Installing-Bootstrap-4-Tutorial)
