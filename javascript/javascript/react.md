@@ -103,13 +103,9 @@ We'll see how we define components and how write the functions that modify those
 We'll see how components interact with each other.  
 And then finally look at real world tools that are used for developing React applications.
 
-#####workflow in npm
-Create a simple react app
-1. install react in npm (create an react app?)
-2. index.jsx - create react components
-3. App.jsx - define render function
-4. npm run
+##### Ref
 
-#####Ref
 1.[ Build with React](http://buildwithreact.com/tutorial)
+
+2. [thinking-in-react](https://reactjs.org/docs/thinking-in-react.html)
 

@@ -1,8 +1,8 @@
 Coding editor: Visual Studio
 
 ##### Workflow
-directory:
 
+directory:
 
 ```
 dist
@@ -17,35 +17,34 @@ webpack.config
 package.json
 ```
 
-
-
 ###### npm config
 
-Terminal:   
+Terminal:  
     Go to the project directory, run **npm init**. Initialize package.json file
 
 Package.json  
-    add "run commands" \(including watch [for npm run watch], start...\) into the script section. \[see the github repository\]  
+    add "run commands" \(including watch \[for npm run watch\], start...\) into the script section. \[see the github repository\]
 
 T:  
     add webpack, run **npm i webpack --save-dev**  
-    add Babel, run **npm i babel?**  
+    add Babel, run **npm i babel?**
 
 P:  
-    add Babel presets  
+    add Babel presets
 
 Webpack.config  
     add a Babel loader rule \(remember to exclude node modules, thereby speeding up the loader sinigicantly\)
 
-.html
-    within the body tag add the following statement:
-    `<script src="dist/bundle.js" type="spreedsheet">`
+.html  
+    within the body tag add the following statement:  
+    `<script src="dist/bundle.js" type="spreedsheet">`  
     Note: bundle.js 是在.html的相对路径
 
-js
+js  
     create index.jsx - entry of webpack
-    
+
 **Finally,** we can run npm run watch to start webpack and also keep an eye on the change
+
 ##### Ref
 
 1. [Webpack Configuration for Using Bootstrap in React](https://medium.com/@vladbezden/webpack-configuration-for-using-bootstrap-in-react-a6ef2dfa1d95)  
@@ -57,6 +56,10 @@ js
     要把bootstrap.min.js, jquery.min.js, and tether.min.js 放到project内，这里我放在了index.jsx所在的js folder 里
 
 4. [Installing Bootstrap 4 Tutorial](https://coursetro.com/posts/design/72/Installing-Bootstrap-4-Tutorial)
+
+5. [参考的resume模板1](https://github.com/BlackrockDigital/startbootstrap-resume)
+
+6. [参考的resume模板2](https://github.com/lei-clearsky)
 
 
 
