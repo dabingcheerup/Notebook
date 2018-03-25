@@ -41,8 +41,9 @@ Webpack.config
     within the body tag add the following statement:
     `<script src="dist/bundle.js" type="spreedsheet">`
     Note: bundle.js 是在.html的相对路径
-    
-    js: create index.jsx - entry of webpack
+
+js
+    create index.jsx - entry of webpack
     
 **Finally,** we can run npm run watch to start webpack and also keep an eye on the change
 ##### Ref
