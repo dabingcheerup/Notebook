@@ -15,7 +15,7 @@
       * React component interaction
       * [JSX](javascript/javascript/react/jsx.md)
     * Node.js
-      * npm
+      * [npm](javascript/javascript/npm.md)
     * [ES6](javascript/javascript/es6.md)
     * [Bootstrap](javascript/javascript/bootstrap.md)
   * [CSS](javascript/css.md)
