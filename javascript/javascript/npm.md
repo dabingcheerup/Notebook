@@ -18,27 +18,34 @@ package.json
 ##### npm config
 
 Terminal:  
+    
     Go to the project directory, run **npm init**. Initialize package.json file
 
 Package.json  
+    
     add "run commands" \(including watch \[for npm run watch\], start...\) into the script section. \[see the github repository\]
 
 T:  
+    
     add webpack, run **npm i webpack --save-dev**  
     add Babel, run **npm i babel?**
 
 P:  
+    
     add Babel presets
 
 Webpack.config  
+    
     add a Babel loader rule \(remember to exclude node modules, thereby speeding up the loader sinigicantly\)
 
 .html  
+    
     within the body tag add the following statement:  
     `<script src="dist/bundle.js" type="spreedsheet">`  
     Note: bundle.js 是在.html的相对路径
 
 js  
+    
     create index.jsx - entry of webpack
 
 **Finally,** we can run npm run watch to start webpack and also keep an eye on the change
@@ -66,25 +73,25 @@ import App from "./App";
 ReactDOM.render(<App />, document.getElementById("content"));
 ```
 
-npm run
+npm run watch
 
 ##### Bootstrap config
 
 Terminal:
 
-1. npm install bootstrap
-   add import 'bootstrap' to index.jsx
-2. npm install jquery -D
-3. npm install popper.js -D  
-   add plugin into webpack.config.js file module part  
-   Note: Bootstrap needs jquery, popper.js and t  
-   must copy and add bootstrap.min.js, jquery.min.js, and tether.min.js from node\_module folder to js folder
+    1. npm install bootstrap
+       add import 'bootstrap' to index.jsx
+    2. npm install jquery -D
+    3. npm install popper.js -D  
+       add plugin into webpack.config.js file module part  
+       Note: Bootstrap needs jquery, popper.js and t  
+       must copy and add bootstrap.min.js, jquery.min.js, and tether.min.js from node\_module folder to js folder
 
    install dependencies to webpack
 
-4. npm install css-loader sass-loader file-loader url-loader node-sass extract-text-webpack-plugin transfer-webpack-plugin image-webpack-loader jquery --save-dev
-5. set rules in webpack.config
-
+    4. npm install css-loader sass-loader file-loader url-loader node-sass extract-text-webpack-plugin transfer-webpack-plugin image-webpack-loader jquery --save-dev
+    5. set rules in webpack.config
+    
 ######Ref
 [重要create-react-app: importing Bootstrap 3 / 4.0 with jQuery cleanly (Node.js)](http://blog.oddicles.org/create-react-app-importing-bootstrap-jquery-cleanly-node-js/)
 [Webpack Configuration for Using Bootstrap in React](https://medium.com/@vladbezden/webpack-configuration-for-using-bootstrap-in-react-a6ef2dfa1d95)
@@ -92,6 +99,7 @@ Terminal:
 ##### Font-awesome and @fontawesome
 
 Terminal:  
+    
     Install font-awesome-loader and font-awesome:  
     1. npm install font-awesome --save  
     2. npm install font-awesome-loader --save-dev
