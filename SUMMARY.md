@@ -119,6 +119,7 @@
         * [Best time to Buy and Sell Stock](chapter1/lintcode/datastructure/linear/best-time-to-buy-and-sell-stock.md)
         * [Best Time to Buy and Sell Stock II](chapter1/lintcode/datastructure/linear/best-time-to-buy-and-sell-stock-ii.md)
         * [Longest Consecutive Subsequence](chapter1/lintcode/datastructure/linear/longest-consecutive-subsequence.md)
+        * [Reshape the Matrix](chapter1/lintcode/datastructure/linear/reshape-the-matrix.md)
       * [LinkedList](chapter1/lintcode/datastructure/linear/linkedlist.md)
         * [Add two numbers](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers.md)
         * [Add two numbers II](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers-ii.md)
