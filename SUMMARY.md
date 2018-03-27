@@ -122,6 +122,7 @@
         * [Reshape the Matrix](chapter1/lintcode/datastructure/linear/reshape-the-matrix.md)
         * [Toeplitz Matrix](chapter1/lintcode/datastructure/linear/toeplitz-matrix.md)
         * [Degree of an Array](chapter1/lintcode/datastructure/linear/degree-of-an-array.md)
+        * [Maximum Product of Three Numbers](chapter1/lintcode/datastructure/linear/maximum-product-of-three-numbers.md)
       * [LinkedList](chapter1/lintcode/datastructure/linear/linkedlist.md)
         * [Add two numbers](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers.md)
         * [Add two numbers II](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers-ii.md)
