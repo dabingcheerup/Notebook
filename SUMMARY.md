@@ -124,6 +124,7 @@
         * [Degree of an Array](chapter1/lintcode/datastructure/linear/degree-of-an-array.md)
         * [Maximum Product of Three Numbers](chapter1/lintcode/datastructure/linear/maximum-product-of-three-numbers.md)
         * [Longest Continuous Increasing Subsequence](chapter1/lintcode/datastructure/linear/longest-continuous-increasing-subsequence.md)
+        * [Largest Number At Least Twice of Others](chapter1/lintcode/datastructure/linear/largest-number-at-least-twice-of-others.md)
       * [LinkedList](chapter1/lintcode/datastructure/linear/linkedlist.md)
         * [Add two numbers](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers.md)
         * [Add two numbers II](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers-ii.md)
