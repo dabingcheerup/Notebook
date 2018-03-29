@@ -126,8 +126,9 @@
         * [\*Longest Continuous Increasing Subsequence](chapter1/lintcode/datastructure/linear/longest-continuous-increasing-subsequence.md)
         * [Largest Number At Least Twice of Others](chapter1/lintcode/datastructure/linear/largest-number-at-least-twice-of-others.md)
         * [Find Pivot Index](chapter1/lintcode/datastructure/linear/find-pivot-index.md)
-        * [@Maximum Average Subarray I](chapter1/lintcode/datastructure/linear/maximum-average-subarray-i.md)
+        * [\*Maximum Average Subarray I](chapter1/lintcode/datastructure/linear/maximum-average-subarray-i.md)
         * @Maximum Subarray
+        * [Non-decreasing Array](chapter1/lintcode/datastructure/linear/non-decreasing-array.md)
       * [LinkedList](chapter1/lintcode/datastructure/linear/linkedlist.md)
         * [Add two numbers](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers.md)
         * [Add two numbers II](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers-ii.md)
