@@ -129,6 +129,7 @@
         * [\*Maximum Average Subarray I](chapter1/lintcode/datastructure/linear/maximum-average-subarray-i.md)
         * @Maximum Subarray
         * [Non-decreasing Array](chapter1/lintcode/datastructure/linear/non-decreasing-array.md)
+        * [Find All Duplicates in Array](chapter1/lintcode/datastructure/linear/find-all-duplicates-in-array.md)
       * [LinkedList](chapter1/lintcode/datastructure/linear/linkedlist.md)
         * [Add two numbers](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers.md)
         * [Add two numbers II](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers-ii.md)
