@@ -123,9 +123,11 @@
         * [Toeplitz Matrix](chapter1/lintcode/datastructure/linear/toeplitz-matrix.md)
         * [Degree of an Array](chapter1/lintcode/datastructure/linear/degree-of-an-array.md)
         * [Maximum Product of Three Numbers](chapter1/lintcode/datastructure/linear/maximum-product-of-three-numbers.md)
-        * [Longest Continuous Increasing Subsequence](chapter1/lintcode/datastructure/linear/longest-continuous-increasing-subsequence.md)
+        * [\*Longest Continuous Increasing Subsequence](chapter1/lintcode/datastructure/linear/longest-continuous-increasing-subsequence.md)
         * [Largest Number At Least Twice of Others](chapter1/lintcode/datastructure/linear/largest-number-at-least-twice-of-others.md)
         * [Find Pivot Index](chapter1/lintcode/datastructure/linear/find-pivot-index.md)
+        * [@Maximum Average Subarray I](chapter1/lintcode/datastructure/linear/maximum-average-subarray-i.md)
+        * @Maximum Subarray
       * [LinkedList](chapter1/lintcode/datastructure/linear/linkedlist.md)
         * [Add two numbers](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers.md)
         * [Add two numbers II](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers-ii.md)
