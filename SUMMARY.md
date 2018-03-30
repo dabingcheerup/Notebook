@@ -36,6 +36,11 @@
   * [Resume](projects/resume.md)
 * [Git](git.md)
 
+## Research
+
+* Graph Embeding
+  * [A Comprehensive Survey of Graph Embedding](research/a-comprehensive-survey-of-graph-embedding.md)
+
 ## Algorithms
 
 * [Lintcode](chapter1/lintcode.md)
