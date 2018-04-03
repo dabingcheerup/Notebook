@@ -138,6 +138,7 @@
         * Product of Array Except Itself
         * [Array Nesting](chapter1/lintcode/datastructure/linear/array-nesting.md)
         * [Task Scheduler](chapter1/lintcode/datastructure/linear/task-scheduler.md)
+        * [My Calender](chapter1/lintcode/datastructure/linear/my-calender.md)
       * [LinkedList](chapter1/lintcode/datastructure/linear/linkedlist.md)
         * [Add two numbers](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers.md)
         * [Add two numbers II](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers-ii.md)
