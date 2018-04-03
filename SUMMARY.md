@@ -137,6 +137,7 @@
         * [Find All Duplicates in Array](chapter1/lintcode/datastructure/linear/find-all-duplicates-in-array.md)
         * Product of Array Except Itself
         * [Array Nesting](chapter1/lintcode/datastructure/linear/array-nesting.md)
+        * [Task Scheduler](chapter1/lintcode/datastructure/linear/task-scheduler.md)
       * [LinkedList](chapter1/lintcode/datastructure/linear/linkedlist.md)
         * [Add two numbers](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers.md)
         * [Add two numbers II](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers-ii.md)
@@ -156,6 +157,7 @@
     * [Dynamic Programming](chapter1/lintcode/dynamic-programming.md)
       * [Climbing Stairs](chapter1/lintcode/dynamic-programming/climbing-stairs.md)
       * [Decode Ways](chapter1/lintcode/dynamic-programming/decode-ways.md)
+      * [Best Time to Buy and Sell Stock with Transaction Fee](chapter1/lintcode/dynamic-programming/best-time-to-buy-and-sell-stock-with-transaction-fee.md)
     * [Search/Recursion/Backtracking](chapter1/lintcode/searchrecursionbacktracking.md)
       * Divid and Conquer
       * [recursion](chapter1/lintcode/recursion.md)
