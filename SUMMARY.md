@@ -142,6 +142,8 @@
         * [rotate image](chapter1/lintcode/datastructure/linear/rotate-image.md)
         * [Maximum Length of Repeated Subarray](chapter1/lintcode/datastructure/linear/maximum-length-of-repeated-subarray.md)
         * [Valid Triangle Number](chapter1/lintcode/datastructure/linear/valid-triangle-number.md)
+        * [Spiral Matrix](chapter1/lintcode/datastructure/linear/spiral-matrix.md)
+        * [Spiral Matrix II](chapter1/lintcode/datastructure/linear/spiral-matrix-ii.md)
       * [LinkedList](chapter1/lintcode/datastructure/linear/linkedlist.md)
         * [Add two numbers](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers.md)
         * [Add two numbers II](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers-ii.md)
