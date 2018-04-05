@@ -144,6 +144,7 @@
         * [Valid Triangle Number](chapter1/lintcode/datastructure/linear/valid-triangle-number.md)
         * [Spiral Matrix](chapter1/lintcode/datastructure/linear/spiral-matrix.md)
         * [Spiral Matrix II](chapter1/lintcode/datastructure/linear/spiral-matrix-ii.md)
+        * [Number of Subarray with Bounded Maximum](chapter1/lintcode/datastructure/linear/number-of-subarray-with-bounded-maximum.md)
       * [LinkedList](chapter1/lintcode/datastructure/linear/linkedlist.md)
         * [Add two numbers](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers.md)
         * [Add two numbers II](chapter1/lintcode/datastructure/linear/linkedlist/add-two-numbers-ii.md)
