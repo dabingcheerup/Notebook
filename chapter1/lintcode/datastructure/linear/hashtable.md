@@ -5,9 +5,9 @@
 
 
 ```
-constructor: Set setName = new HashSet()
+constructor: Set<Integer> setName = new HashSet<>()
 
-1. setName.add(ele)
+1. setName.add(ele) //重复的加不进去，所以可以用HashSet剔除Array中duplicates
 2. setName.contains(ele)
 
 ```
