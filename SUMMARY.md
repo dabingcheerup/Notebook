@@ -155,6 +155,7 @@
       * [HashTable](chapter1/lintcode/datastructure/linear/hashtable.md)
         * [Longest Palindrome](chapter1/lintcode/datastructure/linear/hashtable/longest-palindrome.md)
         * [Minimum Window Substring](chapter1/lintcode/datastructure/linear/hashtable/minimum-window-substring.md)
+        * [Jewels and Stones](chapter1/lintcode/datastructure/linear/hashtable/jewels-and-stones.md)
       * [Stack](chapter1/lintcode/datastructure/linear/stack.md)
         * [Valid Parentheses](chapter1/lintcode/datastructure/linear/stack/valid-parentheses.md)
         * [Simplified Path](chapter1/lintcode/datastructure/linear/stack/simplified-path.md)
