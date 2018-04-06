@@ -159,6 +159,8 @@
         * [Minimum Window Substring](chapter1/lintcode/datastructure/linear/hashtable/minimum-window-substring.md)
         * [Jewels and Stones](chapter1/lintcode/datastructure/linear/hashtable/jewels-and-stones.md)
         * [Distribute Candies](chapter1/lintcode/datastructure/linear/hashtable/distribute-candies.md)
+        * [Find the Difference](chapter1/lintcode/datastructure/linear/hashtable/find-the-difference.md)
+        * [First Unique Character in a String](chapter1/lintcode/datastructure/linear/hashtable/first-unique-character-in-a-string.md)
       * [Stack](chapter1/lintcode/datastructure/linear/stack.md)
         * [Valid Parentheses](chapter1/lintcode/datastructure/linear/stack/valid-parentheses.md)
         * [Simplified Path](chapter1/lintcode/datastructure/linear/stack/simplified-path.md)
