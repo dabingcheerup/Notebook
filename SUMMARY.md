@@ -38,7 +38,7 @@
 
 ## Research
 
-* Graph Embeding
+* [Graph Embeding](research/graph-embeding.md)
   * [A Comprehensive Survey of Graph Embedding](research/a-comprehensive-survey-of-graph-embedding.md)
 
 ## Algorithms

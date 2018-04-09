@@ -2,19 +2,29 @@
 #####Definition
 
 By representing a graph as a (or a set of) low dimensional vector(s), graph algorithms can then be computed efficiently.
+graph embedding aims to represent a graph in a low dimensional space which preserves as much graph property information as possible.
+
+-The term graph embedding has been used in the literature in two ways: to represent an entire graph in vector space, or to represent each individual node in vector space. In this paper, we use the latter definition since such representations can be used for tasks like node classification, differently from the former representation.
+
+-Challenge
+-Obtaining a vector representation of each node of a graph is inherently difficult and poses several challenges
+-1. Choice of property
+A “good” vector representation of nodes should preserve the structure of the graph and the connection between individual nodes. The first challenge is choosing the property of the graph which the embedding should preserve.
+-2. Scalability 
+Most real networks are large and contain millions of nodes and edges — embedding methods should be scalable and able to process large graphs. 
+-3. Dimensionality of the embedding: 
+Finding the optimal dimensions of the representation can be hard. For example, higher number of dimensions may increase the reconstruction precision but will have high time and space complexity.
 
 Types of Graph
 homogeneous graph, heterogeneous graph, attribute graph, etc So 
 The input of graph embedding: varies in different scenarios. 
 The output of graph embedding: is a low-dimensional vector representing a part of the graph (or a whole graph).
 
-The problem of graph embedding 
-is related to two traditional research problems, 
+The problem of graph embedding is related to two traditional research problems, 
 1. i.e., graph analytics [8] and
 2. representation learning [9]. 
 
-graph embedding aims to represent a graph as low dimensional vectors while
-the graph structures are preserved.
+graph embedding aims to represent a graph as low dimensional vectors while the graph structures are preserved.
 
 graph analytics aims to mine useful information from graph data.
 
@@ -22,8 +32,11 @@ representation learning obtains data representations that make it easier to extr
 
 ####2. Problem Formalization
 #####2.1 Notation and Definition
-Definition 1. 
+Definition 1 Graph Embedding. 
 A graph is G = (V, E), where v ∈ V is a node and e ∈ E is an edge. G is associated with a node type mapping function fv : V → Tv and an edge type mapping function fe : E → Te
+
+    -(Graph embedding) Given a graph G = (V, E), a graph embedding is a mapping f : vi → yi ∈ R d ∀i ∈ [n] such that d << |V| and the function f preserves some proximity measure defined on graph G. 
+    An embedding therefore maps each node to a low-dimensional feature vector and tries to preserve the connection strengths between vertices. 
 
 Definition 2. 
 A homogeneous graph Ghomo = (V, E) is a graph in which |Tv| = |Te| = 1
@@ -32,15 +45,17 @@ Definition 3.
 A heterogeneous graph Ghete = (V, E) is a graph in which |Tv| > 1 and/or |Te| > 1
 
 Definition 4. 
-A knowledge graph Gknow = (V, E) is a directed graph whose nodes are entities and edges are subject-property-object triple facts
-h, t ∈ V are entities and r ∈ E is the relation. call < h, r, t > a knowledge graph triplet
+A knowledge graph Gknow = (V, E) is a directed graph whose nodes are entities and edges are subject-property-object triple facts h, t ∈ V are entities and r ∈ E is the relation. call < h, r, t > a knowledge graph triplet
 
 Note that the entities and relations in a knowledge graph are usually of different types [14], [15]. Hence, knowledge graph can be viewed as _an instance of the heterogeneous graph_.
 
 Definition 5. 
-The first-order proximity between node vi and node vj is the weight of the edge eij , i.e., Ai,j .
+The first-order proximity（edge weight sij） between node vi and node vj is the weight of the edge eij , i.e., Ai,j .
+    
+    -The edge weight sij is generally treated as a measure of similarity between the nodes vi and vj. The higher the edge weight, the more similar the two nodes are expected to be.
 
-The second-order proximity compares the similarity of the nodes’ neighbourhood structures. The more similar two nodes’ neighbourhoods are, the larger the second-order proximity value between them
+The second-order proximity compares the similarity of the nodes’ neighbourhood structures. The more similar two nodes’ neighbourhoods are,the larger the second-order proximity value between them. 
+    -Let si = [si1, · · · , sin] denote the first-order proximity between vi and other nodes. Then, second-order proximity between vi and vj is determined by the similarity of si and sj.
 
 ####Probelm setting
 problem setting consists of
@@ -168,3 +183,132 @@ Whole-graph embedding benefits the graph classification task by providing a stra
 
 Challenge: How to capture the properties of a whole graph and how to make a trade-off between expressiveness and efficiency?
 Embedding a whole graph requires capturing the property of a whole graph and is thus more time consuming compared to other types of embedding. The key challenge of whole-graph embedding is how to make a choice between the expressive power of the learnt embedding and the efficiency of the embedding algorithm.
+
+####Graph Embedding techniques
+The differences between different graph embedding algorithms lie in **how they define the graph property** to be preserved.
+
+#####  Tech 1：Matrix Factorization
+Matrix factorization based graph embedding represent graph property (e.g., node pairwise similarity) in the form of a matrix and factorize this matrix to obtain node embedding [11]
+
+######Type 1: Graph Laplacian Eigenmaps
+
+Insight: The graph property to be preserved can be interpreted as pairwise node similarities. Thus, a larger penalty is imposed if two nodes with **larger similarity** are embedded far apart.
+
+Based on the above insight, the optimal embedding y can be derived by the below objective function [99].
+
+The differences of existing studies mainly lie in 
+1. how they calculate the pairwise node similarity Wij , 
+2. and whether they use a linear function y = XT a or not
+
+
+######Type 2:  Node Proximity Matrix Factorization
+
+Insight: Node proximity can be approximated in a lowdimensional space using matrix factorization. The objective of preserving node proximity is to **minimize the loss of approximation**
+
+#####Tech 2: Deep Learning
+DL based graph embedding applies DL models on graphs.
+we divide the DL based graph embedding into two categories based on **whether random walk is adopted to sample paths from a graph**
+
+######Type 1: DL based Graph Embedding with Random Walk
+Insight: The second-order proximity in a graph can be preserved in the embedded space by maximizing the probability of observing the neighbourhood of a node conditioned on its embedding. 
+
+A graph is represented as a set of random walk paths sampled from it. The deep learning methods are then
+applied to the sampled paths for graph embedding which preserves graph properties carried by the paths
+
+1. DeepWalk
+adopts a neural language model (SkipGram) for graph embedding. SikpGram [111] aims to maximize the co-occurrence probability among the words that appear within a window w.
+
+Long-Short Term Memory (LSTM) [115]
+
+######Tpye 2:  DL based Graph Embedding without Random Walk
+Insight:The multi-layered learning architecture is a robust and effective solution to encode the graph into a low dimensional space.
+
+The second class of deep learning based graph embedding methods applies deep models on a whole graph (or aproximity matrix of a whole graph) directly. Below are some popular **deep learning models** used in graph embedding.
+
+1. Autoencoder: An autoencoder aims to minimize the reconstruction error of the output and input by its encoder and decoder. 
+2. Deep Neural Network: As a popular deep learning model, Convolutional Neural Network (CNN) and its variants have been widely adopted in graph embedding
+3. Others: There are some other types of deep learning based graph embedding methods. We summarize all deep learning based graph embedding
+methods (random walk free) in Table 7
+
+####Tech 3:  Edge Reconstruction based Optimization
+Overall Insight: The edges established based on node embedding should be as similar to those in the input graph as possible.
+
+The third category of graph embedding techniques directly optimizes an edge reconstruction based objective functions, by either **maximizing edge reconstruction probability** or minimizing edge reconstruction loss. The later is further divided into **distance-based loss** and **margin-based ranking loss**. Next, we introduce the three types one by one.
+
+#####Type 1: Maximizing Edge Reconstruction Probability
+Insight: Good node embedding maximizes the probability of generating the observed edges in a graph.
+
+#####Type 2: Minimizing Distance-based Loss
+Insight: The node proximity calculated based on node embedding should be as close to the node proximity calculated based on the observed edges as possible.
+
+#####Type 3: Minimizing Margin-based Ranking Loss
+In the margin-based ranking loss optimization, the edges of the input graph indicate the relevance between a node pair. Some nodes in the graph are usually associated with a set of relevant nodes. E.g., in a cQA site, a set of answers are marked as relevant to a given question. The insight of theloss is straightforward.
+Insight: A node’s embedding is more similar to the embedding of relevant nodes than that of any other irrelevant node.
+
+#####Tech 4: Graph Kernel
+Insight: The whole graph structure can be represented as a vector containing the counts of elementary substructures that are decomposed from it.
+
+#####Tech 5: Generative Model
+A generative model can be defined by specifying the joint distribution of the input features and the class labels, conditioned on a set of parameters [139].
+
+######Type 1: Embed Graph Into The Latent Semantic Space
+Insight: Nodes are embedded into a latent semantic space where the distances among nodes explain the observed graph structure.
+
+######Type 2: Incorporate Latent Semantics for Graph Embedding
+Insight: Nodes which are close in the graph and having similar semantics should be embedded closer. The node semantics can be detected from node descriptions via a generative model.
+
+#### Application
+#####Node Related Applications
+######Type 1: Node Classification
+Node classification is to assign a class label to each node in a graph based on the rules learnt from the labelled nodes.
+
+######Type 2: Node Clustering
+Node clustering aims to group similar nodes together, so that nodes in the same group are more similar to each other than those in other groups.
+
+######Type 3: Node Recommendation/Retrieval/Ranking
+The task of node recommendation is to recommend top K nodes of interest to a given node based on certain criteria such as similarity [3], [16], [43], [45], [47], [106].
+
+#####Edge Related Applications
+######Type 1: Link Prediction
+Graph embedding aims to represent a graph with low-dimensional vectors, but interestingly its output vectors can also help infer the graph structure. In practice, graphs are often incomplete; 
+
+######Type 2: Triple Classification
+Triplet classification [14], [15], [38], [51], [52], [53], [61], [142] is a specific application for knowledge graph.
+
+#####Graph Related Applications
+######Type 1: Graph Classification
+Graph classification assigns a class label to a whole graph. This is important when the graph is the unit of data. For example, in [50], each graph is a chemical compound, an organic molecule or a protein structure 
+
+######Type 2: Visualization
+Graph visualization generates visualizations of a graph on a low dimensional space [20], [23], [48], [55], [58], [73]
+
+
+####Future Direction
+#####Computation
+Problem: The deep architecture, which takes the geometric input (e.g., graph), suffers the low efficiency problem.
+Directon: [117] suggested that the computational paradigms developed for large-scale graph processing can be adopted to facilitate efficiency improvement in deep learning models for graph embedding.
+
+#####Problem Setting
+Problem: The dynamic graph is one promising setting for graph embedding.
+Direction: How to design effective graph embedding methods in dynamic domains remains an open question
+
+#####Techniques 
+Structure awareness is important for edge reconstruction based graph embedding.
+Problem: However, most of them use deep learning models ( [38], [40], [142]) which suffer the low efficiency issue as discussed earlier.
+Direction: How to design the non-deep learning based methods that can take advantage of the expressive power of graph structure is a question.
+
+#####Applications 
+Graph embedding has been applied in many different applications. It is an effective way to learn there presentations of data with **consideration of their relations**. Moreover, it can convert **data instances from different sources/platforms/views into one common space** so that they are directly comparable
+
+
+
+
+
+
+
+
+
+
+
+
+
