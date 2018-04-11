@@ -9,7 +9,7 @@ graph embedding aims to represent a graph in a low dimensional space which prese
 -Challenge
 -Obtaining a vector representation of each node of a graph is inherently difficult and poses several challenges
 -1. Choice of property
-A “good” vector representation of nodes should preserve the structure of the graph and the connection between individual nodes. The first challenge is choosing the property of the graph which the embedding should preserve.
+A “good” vector representation of nodes should **preserve the structure of the graph** and **the connection between individual nodes**. The first challenge is choosing the property of the graph which the embedding should preserve.
 -2. Scalability 
 Most real networks are large and contain millions of nodes and edges — embedding methods should be scalable and able to process large graphs. 
 -3. Dimensionality of the embedding: 
@@ -51,10 +51,11 @@ Note that the entities and relations in a knowledge graph are usually of differe
 
 Definition 5. 
 The first-order proximity（edge weight sij） between node vi and node vj is the weight of the edge eij , i.e., Ai,j .
+It compares _the direct connection strength between a node pair._
     
     -The edge weight sij is generally treated as a measure of similarity between the nodes vi and vj. The higher the edge weight, the more similar the two nodes are expected to be.
 
-The second-order proximity compares the similarity of the nodes’ neighbourhood structures. The more similar two nodes’ neighbourhoods are,the larger the second-order proximity value between them. 
+The second-order proximity compares _the similarity of the nodes’ neighbourhood structures._ The more similar two nodes’ neighbourhoods are, the larger the second-order proximity value between them. 
     -Let si = [si1, · · · , sin] denote the first-order proximity between vi and other nodes. Then, second-order proximity between vi and vj is determined by the similarity of si and sj.
 
 ####Probelm setting
