@@ -47,6 +47,7 @@
 
 * [Graph Embeding](research/graph-embeding.md)
   * [A Comprehensive Survey of Graph Embedding](research/a-comprehensive-survey-of-graph-embedding.md)
+  * [凑单算法-阿里巴巴](research/cou-dan-suan-6cd5-a-li-ba-ba.md)
 
 ## Algorithms
 
