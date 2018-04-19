@@ -22,7 +22,13 @@
     * [Sass](javascript/css/sass.md)
   * [HTML](javascript/html.md)
   * [NoSQL](javascript/nosql.md)
-    * [MongoDB](javascript/nosql/mongodb.md)
+    * [MongoDB](mongodb.md)
+      * [文档操作](mongodb/wen-dang-cao-zuo.md)
+      * [Concepts](mongodb/concepts.md)
+      * [集合操作](mongodb/ji-he-cao-zuo.md)
+      * [数据库操作](mongodb/mongodb-connection.md)
+      * [操作符](mongodb/cao-zuo-fu.md)
+      * [Methods](mongodb/methods.md)
   * [Task Runner](javascript/task-runner.md)
     * [Gulp](javascript/task-runner/gulp.md)
   * [Font Awesome](javascript/font-awesome.md)
@@ -32,16 +38,10 @@
 * Sever
   * Python
     * [Flask](flask.md)
+      * [Error](flask/error.md)
 * [Projects](projects.md)
   * [Resume](projects/resume.md)
 * [Git](git.md)
-* [MongoDB](mongodb.md)
-  * [Concepts](mongodb/concepts.md)
-  * [数据库操作](mongodb/mongodb-connection.md)
-  * [集合操作](mongodb/ji-he-cao-zuo.md)
-  * [文档操作](mongodb/wen-dang-cao-zuo.md)
-  * [操作符](mongodb/cao-zuo-fu.md)
-  * [Methods](mongodb/methods.md)
 
 ## Research
 
