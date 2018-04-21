@@ -162,6 +162,7 @@
         * [Reverse Linked List II](chapter1/lintcode/datastructure/linear/linkedlist/reverse-linked-list-ii.md)
         * [Merge 2 Sorted LinkedList](chapter1/lintcode/datastructure/linear/linkedlist/merge-2-sorted-linkedlist.md)
         * [Merge k Sorted LinkedLists](chapter1/lintcode/datastructure/linear/linkedlist/merge-k-sorted-linkedlists.md)
+        * [Delete Node in a LinkedList](chapter1/lintcode/datastructure/linear/linkedlist/delete-node-in-a-linkedlist.md)
       * [HashTable](chapter1/lintcode/datastructure/linear/hashtable.md)
         * [Longest Palindrome](chapter1/lintcode/datastructure/linear/hashtable/longest-palindrome.md)
         * [Minimum Window Substring](chapter1/lintcode/datastructure/linear/hashtable/minimum-window-substring.md)
@@ -169,11 +170,15 @@
         * [Distribute Candies](chapter1/lintcode/datastructure/linear/hashtable/distribute-candies.md)
         * [Find the Difference](chapter1/lintcode/datastructure/linear/hashtable/find-the-difference.md)
         * [First Unique Character in a String](chapter1/lintcode/datastructure/linear/hashtable/first-unique-character-in-a-string.md)
+        * [Happy Number](chapter1/lintcode/datastructure/linear/hashtable/happy-number.md)
       * [Stack](chapter1/lintcode/datastructure/linear/stack.md)
         * [Valid Parentheses](chapter1/lintcode/datastructure/linear/stack/valid-parentheses.md)
         * [Simplified Path](chapter1/lintcode/datastructure/linear/stack/simplified-path.md)
       * [Queue](chapter1/lintcode/datastructure/linear/queue.md)
         * [Binary Tree Level Order Traversal](chapter1/lintcode/datastructure/linear/queue/binary-tree-level-order-traversal.md)
+    * [Tree](chapter1/lintcode/datastructure/tree.md)
+      * [Binary Search Tree](chapter1/lintcode/datastructure/binary-search-tree.md)
+      * Binary Tree
   * Algorithms
     * [Dynamic Programming](chapter1/lintcode/dynamic-programming.md)
       * [Climbing Stairs](chapter1/lintcode/dynamic-programming/climbing-stairs.md)
@@ -243,6 +248,13 @@
   * [Concepts](c/concepts.md)
     * [Pointers](c/pointers.md)
     * [function](c/function.md)
+* [Python](python.md)
+  * 条件
+    * [if](python/if.md)
+  * [List](python/list.md)
+  * [常用内建模块](python/chang-yong-nei-jian-mo-kuai.md)
+    * [collections](python/chang-yong-nei-jian-mo-kuai/collection.md)
+      * [counter](python/chang-yong-nei-jian-mo-kuai/collection/counter.md)
 
 ## QA
 
