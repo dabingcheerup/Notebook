@@ -178,7 +178,8 @@
         * [Binary Tree Level Order Traversal](chapter1/lintcode/datastructure/linear/queue/binary-tree-level-order-traversal.md)
     * [Tree](chapter1/lintcode/datastructure/tree.md)
       * [Binary Search Tree](chapter1/lintcode/datastructure/binary-search-tree.md)
-      * Binary Tree
+      * [Binary Tree](chapter1/lintcode/datastructure/binary-tree.md)
+        * Symmetric Tree
   * Algorithms
     * [Dynamic Programming](chapter1/lintcode/dynamic-programming.md)
       * [Climbing Stairs](chapter1/lintcode/dynamic-programming/climbing-stairs.md)
@@ -220,6 +221,7 @@
     * [Pow\(x, n\)](chapter1/lintcode/math/powx-n.md)
     * [Valid Number](chapter1/lintcode/math/valid-number.md)
     * [Sqrt\(x\)](chapter1/lintcode/math/sqrtx.md)
+    * [Power of Three](chapter1/lintcode/math/power-of-three.md)
 * [Cracking the interviews](chapter1/cracking-the-interviews.md)
 * Facebook
 
