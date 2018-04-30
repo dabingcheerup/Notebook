@@ -16,8 +16,9 @@
       * [JSX](javascript/javascript/react/jsx.md)
     * Node.js
       * [npm](javascript/javascript/npm.md)
-    * [ES6](javascript/javascript/es6.md)
     * [Bootstrap](javascript/javascript/bootstrap.md)
+    * [ES6](javascript/javascript/es6.md)
+      * [Let Const](javascript/javascript/es6/let-const.md)
   * [CSS](javascript/css.md)
     * [Sass](javascript/css/sass.md)
   * [HTML](javascript/html.md)
