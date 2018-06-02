@@ -42,6 +42,13 @@
       * [Error](flask/error.md)
 * [Projects](projects.md)
   * [Resume](projects/resume.md)
+  * [License Monitor](projects/license-monitor.md)
+    * [Linux](projects/license-monitor/linux.md)
+      * [Commands](projects/license-monitor/linux/commands.md)
+      * [Configuration\_List](projects/license-monitor/linux/configurationlist.md)
+    * [Perl](projects/license-monitor/perl.md)
+    * [Python](projects/license-monitor/python.md)
+      * [JSON](projects/license-monitor/python/json.md)
 * [Git](git.md)
 
 ## Research
