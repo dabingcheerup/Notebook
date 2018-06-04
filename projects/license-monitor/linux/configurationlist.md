@@ -22,8 +22,8 @@ including files: lic-reporter.cgi(generate reports), COMMON.pm(Perl Lib)
 ```
 Access to LM database via sqlplus
 <ssh cds@alnx35>
-<source /hwnet/common_r2/env/toolsetup.oracle_agdb> //set the ENV for oracle
-<sqlplus user/psw > / <sqlplus  username/password@yourdatabasename>    // start your sqlplus
+</li> //set the ENV for oracle
+<sqlplus user/psw > / <sqlplus  username/password@yourdatabasename>    // start your sqlplus license_user/license_logs
 <SELECT table_name FROM user_tables FETCH FIRST 20 PERCENT ROWS ONLY;>
 <DESCRIBE table_or_view>
 ```
@@ -53,8 +53,6 @@ Log in with [user:] cds or <ssh cds@dice.license.teradyne.com> [psw:] !mentor
 Run below commands to get lmstat which is the data for license_status.pl
 <ssh cds@dice.license.teradyne.com>
 /data_vol/licenses/cadence/bin/lmutil lmstat -a -c /data_vol/licenses/cadence/keys
-
-
 ```
 
 ```
@@ -67,8 +65,6 @@ psw: !mentor
 Run license_status.pl: it outputs the data for CURRENT USAGE REPORT
 <ssh dice.license.teradyne.com -l cds -i /u/cds/.ssh/licsrvkey /etc/teradyne/license_status -only [cadence]>
 psw for cds
-
-
 ```
 
 

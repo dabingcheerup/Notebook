@@ -47,6 +47,7 @@
       * [Commands](projects/license-monitor/linux/commands.md)
       * [Configuration\_List](projects/license-monitor/linux/configurationlist.md)
     * [Perl](projects/license-monitor/perl.md)
+      * [Previous\_Scripts](projects/license-monitor/perl/previousscripts.md)
     * [Python](projects/license-monitor/python.md)
       * [JSON](projects/license-monitor/python/json.md)
 * [Git](git.md)
