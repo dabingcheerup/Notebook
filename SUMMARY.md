@@ -48,8 +48,15 @@
       * [Configuration\_List](projects/license-monitor/linux/configurationlist.md)
     * [Perl](projects/license-monitor/perl.md)
       * [Previous\_Scripts](projects/license-monitor/perl/previousscripts.md)
+      * [Resource](projects/license-monitor/perl/resource.md)
+      * [Syntax](projects/license-monitor/perl/syntax.md)
     * [Python](projects/license-monitor/python.md)
       * [JSON](projects/license-monitor/python/json.md)
+      * [Resource](projects/license-monitor/python/resource.md)
+      * [Syntax](projects/license-monitor/python/syntax.md)
+    * [Error](projects/license-monitor/error.md)
+    * [Vim](projects/license-monitor/vim.md)
+      * [Syntax](projects/license-monitor/vim/syntax.md)
 * [Git](git.md)
 
 ## Research

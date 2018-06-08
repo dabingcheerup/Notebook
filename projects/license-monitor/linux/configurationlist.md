@@ -67,5 +67,42 @@ Run license_status.pl: it outputs the data for CURRENT USAGE REPORT
 psw for cds
 ```
 
+**Set up key for a server**
+
+```
+Eample: set up a key to login cds@axis2.icd.teradyne.com
+Step1: Generate public/private key, set a passphrase
+<xieti_axis2> cd $HOME/.ssh
+<xieti_axis2> ssh-keygen -f xieti_ts_git -C "xiteti toolsetup git key"  //xieti is your personal username
+ENTER a passphrase for your public/private key. Remember it!!!
+
+Step2: copy the public key to the ~cds/.ssh/authorized_keys of any machine to which you will need to log in repeatedly
+<xieti_axis2>source /hwnet/common_r2/env/toolsetup.hwtools
+<xieti_axis2> ter-ssh-copy-id -i xieti_ts_git cds@axis2.icd.teradyne.com
+
+Step3: test that the key works
+<xieti_axis2> ssh -i ~/.ssh/xieti_ts_git cds@axis2.icd.teradyne.com "pwd"
+if succeed, will show the root path of cds@axis2.icd.teradyne.com which is /u/cds
+
+Step4: making a certificate-authenticated ssh connection, and the certificate passphrase is automagically provided by your VNC session.
+<xieti_axis2> /bin/sh
+ENTER ssh-add ~/.ssh/xieti_ts_git
+ENTER your passphrase
+TEST with ssh cds@axis2.icd.teradyne.com "pwd" 
+if succeed, will show /u/cds. THAT MEANS you DON't NEED PASSWORD to access axis2.icd.teradyne.com as cds
+
+!!!NOTE!!!: if you want to access to other servers without psw, repeat the process start from step2
+```
+
+```
+xieti_axis2> ssh cds@axis2.icd.teradyne.com
+Warning: the ECDSA host key for 'axis2.icd.teradyne.com' differs from the key for the IP address '131.101.116.245'
+Offending key for IP in /u/xieti/.ssh/known_hosts:1
+Matching host key in /u/xieti/.ssh/known_hosts:10
+Are you sure you want to continue connecting (yes/no)? yes
+Last login: Thu Jun  7 11:08:39 2018 from axis2.icd.teradyne.com
+cds_axis2> exit
+```
+
 
 
