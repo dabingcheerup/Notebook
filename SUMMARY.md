@@ -54,9 +54,9 @@
       * [JSON](projects/license-monitor/python/json.md)
       * [Resource](projects/license-monitor/python/resource.md)
       * [Syntax](projects/license-monitor/python/syntax.md)
-    * [Error](projects/license-monitor/error.md)
     * [Vim](projects/license-monitor/vim.md)
       * [Syntax](projects/license-monitor/vim/syntax.md)
+    * [Error](projects/license-monitor/error.md)
 * [Git](git.md)
 
 ## Research
