@@ -21,11 +21,12 @@ including files: lic-reporter.cgi(generate reports), COMMON.pm(Perl Lib)
 
 ```
 Access to LM database via sqlplus
-<ssh cds@alnx35>
-</li> //set the ENV for oracle
-<sqlplus user/psw > / <sqlplus  username/password@yourdatabasename>    // start your sqlplus license_user/license_logs
-<SELECT table_name FROM user_tables FETCH FIRST 20 PERCENT ROWS ONLY;>
-<DESCRIBE table_or_view>
+>ssh cds@alnx35 
+psw:!MENTOR
+>source /hwnet/common_r2/env/toolsetup.oracle_agdb //set the ENV for oracle
+>sqlplus user/psw  / <sqlplus  username/password@yourdatabasename    // start your sqlplus license_user/license_logs
+>SELECT table_name FROM user_tables FETCH FIRST 20 PERCENT ROWS ONLY;
+>DESCRIBE table_or_view
 ```
 
 ```
