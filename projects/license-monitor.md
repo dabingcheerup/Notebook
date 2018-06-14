@@ -8,7 +8,7 @@ xieti alnx1> cd repo/
 xieti_alnx1> cd ci
 xieti_alnx1> ls
 build_python-3.6.2  build.sh  install_packages.sh  install_production.sh  spec.sh  start_web  toolsetup.lm
-xieti_alnx1> source toolsetup.lm 
+xieti_alnx1> source toolsetup.lm (only repeat this part when you activate your proj next time)
 xieti_alnx1> build.sh
 xieti_alnx1> source toolsetup.lm
 xieti_alnx1> which pipenv    // check if pipenv is installed

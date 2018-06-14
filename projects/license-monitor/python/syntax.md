@@ -7,8 +7,11 @@
 | list all file of a directory | os.listdir\(\) [r1](https://stackoverflow.com/questions/3207219/how-do-i-list-all-files-of-a-directory), [r2](http://www.bogotobogo.com/python/python_traversing_directory_tree_recursively_os_walk.php) |
 | check if a string is empty | if not myString [r1](https://stackoverflow.com/questions/9573244/most-elegant-way-to-check-if-the-string-is-empty-in-python) |
 | writing HTML using Python | [r1](http://www.dalkescientific.com/writings/NBN/writing_html.html) |
-
-
+| convert tuple to dict | [r1](https://www.tutorialspoint.com/How-I-can-convert-a-Python-Tuple-into-Dictionary) |
+| f-string: f"This is my {variable}" | [r1](https://hackernoon.com/a-closer-look-at-how-python-f-strings-work-f197736b3bdb) |
+| return multiple values | [r1](https://stackoverflow.com/questions/9752958/how-can-i-return-two-values-from-a-function-in-python) |
+| cx\_Oracle: timedelta | [r1](https://pymotw.com/2/datetime/) |
+| convert datetime obj to a string  | [r1](https://stackoverflow.com/questions/10624937/convert-datetime-object-to-a-string-of-date-only-in-python) |
 
 **Code Snippet**
 
@@ -18,14 +21,12 @@ import cx_Oracle
 con = cx_Oracle.connect('pythonhol/welcome@127.0.0.1/orcl')
 cur = con.cursor()
 cur.execute('select * from departments order by department_id')
-               
+
 res = cur.fetchall()
 print res
-            
+
 cur.close()
 con.close()
-
-
 ```
 
 ```
@@ -50,9 +51,6 @@ Ref:
 https://stackoverflow.com/questions/3096953/how-to-calculate-the-time-interval-between-two-time-strings
 https://stackoverflow.com/questions/151199/how-do-i-calculate-number-of-days-between-two-dates-using-python
 https://www.odoo.com/forum/help-1/question/how-to-calculate-hours-and-minutes-between-two-date-time-fields-76191
-
-
-
 ```
 
 

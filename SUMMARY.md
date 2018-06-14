@@ -61,6 +61,10 @@
       * [Resource](projects/license-monitor/flask/resource.md)
     * Angular
     * MongoDB
+    * [Oracle](projects/license-monitor/oracle.md)
+      * Resource
+      * [Syntax](projects/license-monitor/oracle/syntax.md)
+    * [Github](projects/license-monitor/github.md)
 * [Git](git.md)
 
 ## Research
