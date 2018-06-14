@@ -11,9 +11,9 @@
 | f-string: f"This is my {variable}" | [r1](https://hackernoon.com/a-closer-look-at-how-python-f-strings-work-f197736b3bdb) |
 | return multiple values | [r1](https://stackoverflow.com/questions/9752958/how-can-i-return-two-values-from-a-function-in-python) |
 | cx\_Oracle: timedelta | [r1](https://pymotw.com/2/datetime/) |
-| convert datetime obj to a string  | [r1](https://stackoverflow.com/questions/10624937/convert-datetime-object-to-a-string-of-date-only-in-python) |
+| convert datetime obj to a string | [r1](https://stackoverflow.com/questions/10624937/convert-datetime-object-to-a-string-of-date-only-in-python) |
 
-**Code Snippet**
+**Code Snippets**
 
 ```
 # SQL processing
