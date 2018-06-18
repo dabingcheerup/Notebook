@@ -65,6 +65,9 @@
       * Resource
       * [Syntax](projects/license-monitor/oracle/syntax.md)
     * [Github](projects/license-monitor/github.md)
+    * [Google Graph API](projects/license-monitor/google-graph-api.md)
+      * [Resource](projects/license-monitor/google-graph-api/resource.md)
+      * Syntax
 * [Git](git.md)
 
 ## Research
