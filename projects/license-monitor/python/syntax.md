@@ -8,10 +8,16 @@
 | check if a string is empty | if not myString [r1](https://stackoverflow.com/questions/9573244/most-elegant-way-to-check-if-the-string-is-empty-in-python) |
 | writing HTML using Python | [r1](http://www.dalkescientific.com/writings/NBN/writing_html.html) |
 | convert tuple to dict | [r1](https://www.tutorialspoint.com/How-I-can-convert-a-Python-Tuple-into-Dictionary) |
+| Iterating over dict | [r1](https://dev-notes.eu/2017/09/iterating-over-dictionary-in-python/), |
 | f-string: f"This is my {variable}" | [r1](https://hackernoon.com/a-closer-look-at-how-python-f-strings-work-f197736b3bdb) |
+| String formatters : .format\(\) | [r1](https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3), [r2](https://pyformat.info/), [r3](https://stackoverflow.com/questions/28343745/how-do-i-print-a-sign-using-string-formatting) |
 | return multiple values | [r1](https://stackoverflow.com/questions/9752958/how-can-i-return-two-values-from-a-function-in-python) |
 | cx\_Oracle: timedelta | [r1](https://pymotw.com/2/datetime/) |
 | convert datetime obj to a string | [r1](https://stackoverflow.com/questions/10624937/convert-datetime-object-to-a-string-of-date-only-in-python) |
+| why use epoch\(timestamp\) | [r1](https://stackoverflow.com/questions/20822821/what-is-a-unix-timestamp-and-why-use-it) |
+| convert date str with timezone t epoch: use datetime.timestamp\(\) | [r1](https://stackoverflow.com/questions/42110761/converting-date-string-with-timezone-to-epoch),[ r2, ](https://www.tutorialspoint.com/How-to-convert-Python-datetime-to-epoch-with-strftime) |
+| convert datetime to a timezone | [r1](https://howchoo.com/g/ywi5m2vkodk/working-with-datetime-objects-and-timezones-in-python),[ r2](https://stackoverflow.com/questions/25668415/why-does-python-new-york-time-zone-display-456-instead-400) |
+| convert timestamp with timezone to datetime to date str | [r1](https://timestamp.online/article/how-to-convert-timestamp-to-datetime-in-python),[ r2](https://stackoverflow.com/questions/9744775/how-to-convert-integer-timestamp-to-python-datetime), [r3](https://coderwall.com/p/-uuawg/how-do-i-convert-a-unix-timestamp-to-human-readable-format-in-python) |
 
 **Code Snippets**
 
@@ -51,6 +57,25 @@ Ref:
 https://stackoverflow.com/questions/3096953/how-to-calculate-the-time-interval-between-two-time-strings
 https://stackoverflow.com/questions/151199/how-do-i-calculate-number-of-days-between-two-dates-using-python
 https://www.odoo.com/forum/help-1/question/how-to-calculate-hours-and-minutes-between-two-date-time-fields-76191
+```
+
+```
+# Timestamp to datetime to date str (timezone)
+def timestamp_to_date(time_stamp):
+    #date = datetime.strftime("%m/%d/%Y-%H:%M:%S", time_stamp)
+    ny_tz = pytz.timezone('America/New_York')  // Ref: https://docs.oracle.com/cd/B19306_01/server.102/b14225/ch4datetime.htm#i1007699
+    timestamp_to_datetime = datetime.fromtimestamp(time_stamp, tz=ny_tz)
+    datetime_to_date = datetime.strftime(timestamp_to_datetime, "%m/%d/%Y-%H:%M:%S")
+    return datetime_to_date
+    
+# date str to datetime to timestamp    
+def datestr_to_timestamp(date_str):
+    # OFFSET TIMEZONE
+    ny_tz = pytz.timezone('America/New_York')
+    date_to_datetime = datetime.strptime(date_str, "%m/%d/%Y-%H:%M:%S")
+    add_tz = ny_tz.localize(date_to_datetime)
+    datetime_to_timestamp = add_tz.timestamp()
+    return datetime_to_timestamp
 ```
 
 
