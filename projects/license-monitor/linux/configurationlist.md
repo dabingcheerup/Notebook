@@ -14,7 +14,7 @@
 ```
 Access to Previous LM code
 <cd /hwnet/tools_web/cgi-bin>
-including files: lic-reporter.cgi(generate reports), COMMON.pm(Perl Lib)
+including files: lic-reporter.cgi(generate reports), lic_reporter_g1.cgi(generate graph), COMMON.pm(Perl Lib)
 ```
 
 **Server: alnx35**
