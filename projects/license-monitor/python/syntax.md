@@ -6,9 +6,13 @@
 | var increment ++ | number += 1 [py doesn't support ++](https://stackoverflow.com/questions/2632677/python-integer-incrementing-with/2632870) |
 | list all file of a directory | os.listdir\(\) [r1](https://stackoverflow.com/questions/3207219/how-do-i-list-all-files-of-a-directory), [r2](http://www.bogotobogo.com/python/python_traversing_directory_tree_recursively_os_walk.php) |
 | check if a string is empty | if not myString [r1](https://stackoverflow.com/questions/9573244/most-elegant-way-to-check-if-the-string-is-empty-in-python) |
+| Read a string line by line | text.split\('\n'\)[ r1](https://stackoverflow.com/questions/44979516/reading-a-string-line-by-line-in-python), [r2](https://stackoverflow.com/questions/22042948/split-string-using-a-newline-delimiter-with-python) |
+| check if element exists in list | [r1](http://thispointer.com/python-how-to-check-if-an-item-exists-in-list-search-by-value-or-condition/) |
+| Sort list | [r1](https://stackoverflow.com/questions/33219985/nested-list-sort-python-3),[ r2](https://stackoverflow.com/questions/41736425/sort-a-nested-list-in-python-by-inner-list-number),[ r3](https://www.geeksforgeeks.org/python-sort-list-according-second-element-sublist/) |
 | writing HTML using Python | [r1](http://www.dalkescientific.com/writings/NBN/writing_html.html) |
-| convert tuple to dict | [r1](https://www.tutorialspoint.com/How-I-can-convert-a-Python-Tuple-into-Dictionary) |
+| convert tuple to dict | dict\( \)[r1](https://www.tutorialspoint.com/How-I-can-convert-a-Python-Tuple-into-Dictionary), list\(\) [r2](https://www.tutorialspoint.com/python/list_list.htm) |
 | Iterating over dict | [r1](https://dev-notes.eu/2017/09/iterating-over-dictionary-in-python/), |
+| Sort a dict by values | [r1](http://thomas-cokelaer.info/blog/2017/12/how-to-sort-a-dictionary-by-values-in-python/), [r2,](https://stackoverflow.com/questions/613183/how-do-i-sort-a-dictionary-by-value) |
 | f-string: f"This is my {variable}" | [r1](https://hackernoon.com/a-closer-look-at-how-python-f-strings-work-f197736b3bdb) |
 | String formatters : .format\(\) | [r1](https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3), [r2](https://pyformat.info/), [r3](https://stackoverflow.com/questions/28343745/how-do-i-print-a-sign-using-string-formatting) |
 | return multiple values | [r1](https://stackoverflow.com/questions/9752958/how-can-i-return-two-values-from-a-function-in-python) |
@@ -67,7 +71,7 @@ def timestamp_to_date(time_stamp):
     timestamp_to_datetime = datetime.fromtimestamp(time_stamp, tz=ny_tz)
     datetime_to_date = datetime.strftime(timestamp_to_datetime, "%m/%d/%Y-%H:%M:%S")
     return datetime_to_date
-    
+
 # date str to datetime to timestamp    
 def datestr_to_timestamp(date_str):
     # OFFSET TIMEZONE

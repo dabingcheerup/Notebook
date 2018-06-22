@@ -59,6 +59,7 @@
     * [Error](projects/license-monitor/error.md)
     * [Flask](projects/license-monitor/flask.md)
       * [Resource](projects/license-monitor/flask/resource.md)
+      * [Syntax](projects/license-monitor/flask/syntax.md)
     * Angular
     * MongoDB
     * [Oracle](projects/license-monitor/oracle.md)

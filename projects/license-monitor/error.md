@@ -16,3 +16,11 @@ Python
 
 
 
+Perl
+
+|  |  |
+| :--- | :--- |
+| Can't locate DBD/Oracle.pm | Make sure Perl version[ r1](https://www.perlmonks.org/?node_id=973639) |
+
+
+
