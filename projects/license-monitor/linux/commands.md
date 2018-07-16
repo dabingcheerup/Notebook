@@ -12,6 +12,7 @@
 | set execute permission of file | chmod +x \[filename\] |  |
 | search keyword | ps -efa \| grep \[keyword1\] \| grep \[keyword2\] |  |
 | create a vnc viewer | vnc |  |
+| kill vnc | killvnc :\# port |  |
 |  | source | [r1](https://better-coding.com/solved-njs-045-dpi-1047-64-bit-oracle-client-library-cannot-be-loaded/) |
 
 

@@ -7,6 +7,7 @@
 | list all file of a directory | os.listdir\(\) [r1](https://stackoverflow.com/questions/3207219/how-do-i-list-all-files-of-a-directory), [r2](http://www.bogotobogo.com/python/python_traversing_directory_tree_recursively_os_walk.php) |
 | check if a string is empty | if not myString [r1](https://stackoverflow.com/questions/9573244/most-elegant-way-to-check-if-the-string-is-empty-in-python) |
 | Read a string line by line | text.split\('\n'\)[ r1](https://stackoverflow.com/questions/44979516/reading-a-string-line-by-line-in-python), [r2](https://stackoverflow.com/questions/22042948/split-string-using-a-newline-delimiter-with-python) |
+| strip\(\), lstrip\(\), rstrip\(\) | [r1](https://stackoverflow.com/questions/13142347/how-to-remove-leading-and-trailing-zeros-in-a-string-python) |
 | check if element exists in list | [r1](http://thispointer.com/python-how-to-check-if-an-item-exists-in-list-search-by-value-or-condition/) |
 | Sort list | [r1](https://stackoverflow.com/questions/33219985/nested-list-sort-python-3),[ r2](https://stackoverflow.com/questions/41736425/sort-a-nested-list-in-python-by-inner-list-number),[ r3](https://www.geeksforgeeks.org/python-sort-list-according-second-element-sublist/) |
 | writing HTML using Python | [r1](http://www.dalkescientific.com/writings/NBN/writing_html.html) |
@@ -19,7 +20,7 @@
 | cx\_Oracle: timedelta | [r1](https://pymotw.com/2/datetime/) |
 | convert datetime obj to a string | [r1](https://stackoverflow.com/questions/10624937/convert-datetime-object-to-a-string-of-date-only-in-python) |
 | why use epoch\(timestamp\) | [r1](https://stackoverflow.com/questions/20822821/what-is-a-unix-timestamp-and-why-use-it) |
-| convert date str with timezone t epoch: use datetime.timestamp\(\) | [r1](https://stackoverflow.com/questions/42110761/converting-date-string-with-timezone-to-epoch),[ r2, ](https://www.tutorialspoint.com/How-to-convert-Python-datetime-to-epoch-with-strftime) |
+| convert date str with timezone t epoch: use datetime.timestamp\(\) | [r1](https://stackoverflow.com/questions/42110761/converting-date-string-with-timezone-to-epoch),[ r2, ](https://www.tutorialspoint.com/How-to-convert-Python-datetime-to-epoch-with-strftime)[r3](https://stackoverflow.com/questions/25279993/parsing-non-zero-padded-timestamps-in-python) |
 | convert datetime to a timezone | [r1](https://howchoo.com/g/ywi5m2vkodk/working-with-datetime-objects-and-timezones-in-python),[ r2](https://stackoverflow.com/questions/25668415/why-does-python-new-york-time-zone-display-456-instead-400) |
 | convert timestamp with timezone to datetime to date str | [r1](https://timestamp.online/article/how-to-convert-timestamp-to-datetime-in-python),[ r2](https://stackoverflow.com/questions/9744775/how-to-convert-integer-timestamp-to-python-datetime), [r3](https://coderwall.com/p/-uuawg/how-do-i-convert-a-unix-timestamp-to-human-readable-format-in-python) |
 
