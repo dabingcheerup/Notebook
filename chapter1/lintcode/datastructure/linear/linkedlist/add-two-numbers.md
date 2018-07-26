@@ -1,44 +1,50 @@
 ![](/assets/Screen Shot 2018-02-01 at 10.56.22 AM.png)
 
-#####idea:
+##### idea:
+
 1. 反过来的加法过程
 2. 注意：l1 和 l2 长度不同
-    1. l1 == null && l2 == null
-    2. l1 != null && l2 != null
-    3. l1 != null
-    4. l2 != null
-    5. l1, l2 == null, carry > 0，新加一个node存放最高位的进位
+   1. l1 == null && l2 == null
+   2. l1 != null && l2 != null
+   3. l1 != null
+   4. l2 != null
+   5. l1, l2 == null, carry &gt; 0，新加一个node存放最高位的进位
 
-#####题目假设
+##### 题目假设
+
 1. Two LinkedLists, l1 and l2 represent two numbers
 2. digits are stored in reverse order, adds the two numbers and return the sum as a linked list in reverse order
 
-#####重要问题
+##### 重要问题
+
 1. 进位
 2. l1, l2的长度不同
 
-#####直觉
+##### 直觉
+
 1. traverse l1 和 l2
 
-#####解决方法可行性
+##### 解决方法可行性
+
 1. 根据l1,l2的情况分别处理
 
-#####解决方案
+##### 解决方案
+
 1. l1 == null && l2 == null, return null
 2. l1 != null && l2 != null, sum = l1.val + l2.val + carry
 3. l1 != null, sum = l1.val + carry
 4. l2 != null, sum = l2.val + carry
-5. l1, l2 == null, carry > 0，新加一个node存放最高位的进位
+5. l1, l2 == null, carry &gt; 0，新加一个node存放最高位的进位
 
-#####数据结构
+##### 数据结构
+
 1. LinkedList DummyNode
-#####复杂度
-1. while loop, O(n)
+   ##### 复杂度
+2. while loop, O\(n\)
 
-#####Code
+##### Code
 
 ```
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -55,19 +61,19 @@ public class Solution {
         if(l1 == null && l2 == null) {
             return null;
         }
-            
+
         ListNode head = new ListNode(0);
         ListNode point = head;
         int carry = 0;
         while(l1 != null && l2!=null){
             int sum = carry + l1.val + l2.val;
-            point.next = new ListNode(sum % 10);
+            point.next = new ListNode(sum % 10); //*
             carry = sum / 10;
             l1 = l1.next;
             l2 = l2.next;
             point = point.next;
         }
-        
+
         while(l1 != null) {
             int sum =  carry + l1.val;
             point.next = new ListNode(sum % 10);
@@ -75,7 +81,7 @@ public class Solution {
             l1 = l1.next;
             point = point.next;
         }
-        
+
         while(l2 != null) {
             int sum =  carry + l2.val;
             point.next = new ListNode(sum % 10);
@@ -83,17 +89,14 @@ public class Solution {
             l2 = l2.next;
             point = point.next;
         }
-        
+        // *
         if (carry != 0) {
             point.next = new ListNode(carry);
         }
         return head.next;
     }
 }
-
 ```
-
-
 
 ```
 // version: 高频题班
@@ -130,5 +133,7 @@ public class Solution {
 }
 ```
 
-#####Ref
+##### Ref
+
 1.[ CSDN add two numbers](http://blog.csdn.net/zhouworld16/article/details/14045855)
+
