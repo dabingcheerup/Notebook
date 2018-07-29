@@ -14,3 +14,15 @@ ref:
 
 
 
+[**Delete a branch**](https://www.git-tower.com/learn/git/faq/delete-remote-branch)
+
+```
+Deleting local branches in Git
+    $ git branch -d feature/login
+
+Deleting remote branches in Git
+    $ git push origin --delete feature/login
+```
+
+
+

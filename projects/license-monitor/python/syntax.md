@@ -83,5 +83,44 @@ def datestr_to_timestamp(date_str):
     return datetime_to_timestamp
 ```
 
+**Add 1 Day to Date**
+
+```
+def add_1(date):
+    d = datetime.strptime(date, "%m/%d/%Y")
+    add_date = d + timedelta(days=1)
+    new_date = datetime.strftime(add_date, "%m/%d/%Y").lstrip("0")
+    return new_date
+```
+
+[**Compare two dates\(datetime\)**](https://stackoverflow.com/questions/8142364/how-to-compare-two-dates)
+
+```
+from datetime import datetime
+
+past = datetime.now()
+present = datetime.now()
+
+if past < present:
+    return True
+```
+
+[**Extract only the date or time from a datetime obj**](https://stackoverflow.com/questions/33834727/how-do-you-extract-only-the-date-from-a-python-datetime)
+
+```
+from datetime import datetime
+
+d = datetime.now()
+only_date, only_time = d.date(), d.time()
+```
+
+
+
+[**Run local script on remote server**](https://stackoverflow.com/questions/20499074/run-local-python-script-on-remote-server/43116690)
+
+```
+ssh user@machine python < script.py - arg1 arg2
+```
+
 
 
