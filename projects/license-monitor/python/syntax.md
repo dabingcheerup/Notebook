@@ -114,12 +114,16 @@ d = datetime.now()
 only_date, only_time = d.date(), d.time()
 ```
 
-
-
 [**Run local script on remote server**](https://stackoverflow.com/questions/20499074/run-local-python-script-on-remote-server/43116690)
 
 ```
 ssh user@machine python < script.py - arg1 arg2
+```
+
+[**Remove a dict from a list**](https://stackoverflow.com/questions/7484562/python-remove-dictionary-from-list-if-exists)
+
+```
+
 ```
 
 

@@ -73,7 +73,7 @@ db.stack.update(
 );
 ```
 
-[**Add key-value pair to an obj**](https://stackoverflow.com/questions/38887155/how-to-add-key-value-pair-to-object-in-mongodb)
+[**Add key-value pair or a new field to an obj**](https://stackoverflow.com/questions/38887155/how-to-add-key-value-pair-to-object-in-mongodb)
 
 ```
 Before:
@@ -92,6 +92,13 @@ After:
   }
 
 db.foo.update({"_id" :ObjectId("...") },{$set : {"Monday.z":8}})
+
+Insert a new field
+https://stackoverflow.com/questions/26967525/insert-an-embedded-document-to-a-new-field-in-mongodb-document
+db.test.update(
+   { _id : 133 },
+   { $set : { PackSizes:  {_id: 123, PackSizeName:"xyz", UnitName:"pqr"}} }
+)
 ```
 
 [**Update an array by index in a doc**](https://stackoverflow.com/questions/11372065/mongodb-how-do-i-update-a-single-subelement-in-an-array-referenced-by-the-inde)
@@ -118,19 +125,26 @@ After:
       { ... old content C ... }
     ]
   }
-  
+
 db["my_collection"].update(
     { "_id": ObjectId(document_id) },
     { "$set": { 'documents.'+str(doc_index)+'.content' : new_content_B}}
 )
 ```
 
-
-
 [**Distinct multiple keys**](https://stackoverflow.com/questions/11973725/how-to-efficiently-perform-distinct-with-multiple-keys)
 
 ```
 use group
+
+Ref:
+ 1. http://www.voidcn.com/article/p-trfewbcd-bbr.html
+```
+
+[**Distinct a list of sub-document field values**](https://stackoverflow.com/questions/16155266/mongodb-how-to-get-distinct-list-of-sub-document-field-values)
+
+```
+db.collection.distinct("children.child_name")
 ```
 
 
