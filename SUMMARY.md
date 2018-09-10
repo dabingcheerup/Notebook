@@ -80,6 +80,7 @@
   * [A Comprehensive Survey of Graph Embedding](research/a-comprehensive-survey-of-graph-embedding.md)
   * [凑单算法-阿里巴巴](research/cou-dan-suan-6cd5-a-li-ba-ba.md)
   * Word2Vec
+* [Stochastic Data Acquisition for Answering Queries as Time Goes by](research/stochastic-data-acquisition-for-answering-queries-as-time-goes-by.md)
 
 ## Algorithms
 
