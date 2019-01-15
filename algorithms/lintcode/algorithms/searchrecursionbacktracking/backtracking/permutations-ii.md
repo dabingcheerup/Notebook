@@ -2,6 +2,10 @@
 
 ![](../../../../../.gitbook/assets/screen-shot-2018-03-01-at-10.17.41-pm.png)
 
+## Analysis
+
+给你一个list，有重复element，要求找出所有对这些element的unique排序。用一个List&lt;List&lt;Integer&gt;&gt; result 存放排序，
+
 ## Idea
 
 1. 要解决用过的元素就跳过： 用boolean\[\]来记录该元素是否被用过

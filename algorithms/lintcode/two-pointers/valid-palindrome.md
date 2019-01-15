@@ -1,4 +1,8 @@
-# valid palindrome
+---
+description: easy
+---
+
+# Valid Palindrome
 
 ![](../../../.gitbook/assets/screen-shot-2017-08-22-at-8.36.48-pm.png)
 

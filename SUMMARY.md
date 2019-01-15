@@ -86,9 +86,16 @@
 
 ## Algorithms
 
+* [各类算法总结](algorithms/ge-lei-suan-fa-zong-jie/README.md)
+  * [回溯Backtracking](algorithms/ge-lei-suan-fa-zong-jie/hui-su-backtracking.md)
+  * [递归](algorithms/ge-lei-suan-fa-zong-jie/di-gui.md)
 * [Lintcode](algorithms/lintcode/README.md)
   * [String](algorithms/lintcode/string/README.md)
-    * [929. Unique Email Addresses Easy](algorithms/lintcode/string/929.-unique-email-addresses-easy.md)
+    * [Student Attendance Record I](algorithms/lintcode/string/untitled.md)
+    * [Robot Return to Origin](algorithms/lintcode/string/657.-robot-return-to-origin.md)
+    * [Unique Morse Code](algorithms/lintcode/string/804.-unique-morse-code.md)
+    * [To Lower Case](algorithms/lintcode/string/709.-to-lower-case.md)
+    * [Unique Email Addresses Easy](algorithms/lintcode/string/929.-unique-email-addresses-easy.md)
     * [add binary](algorithms/lintcode/string/add-binary.md)
     * [compare strings](algorithms/lintcode/string/compare-strings.md)
     * [two strings are anagrams](algorithms/lintcode/string/two-strings-are-anagrams.md)
@@ -103,6 +110,7 @@
     * [Reverse words in a string II](algorithms/lintcode/string/reverse-words-in-string-ii.md)
     * [string permutation](algorithms/lintcode/string/string-permutation.md)
     * [count and say](algorithms/lintcode/string/count-and-say.md)
+    * [String Compression](algorithms/lintcode/string/string-compression.md)
     * [longest common subsequence](algorithms/lintcode/string/longest-common-subsequence-1.md)
     * [big integer multiplication](algorithms/lintcode/string/big-integer-multiplication.md)
     * [Longest palindromic substring](algorithms/lintcode/string/longest-palindromic-substring.md)
@@ -131,7 +139,8 @@
     * [@partition list](algorithms/lintcode/two-pointers/partition-list.md)
     * [container with most water](algorithms/lintcode/two-pointers/container-with-most-water.md)
     * [trapping rain water](algorithms/lintcode/two-pointers/trapping-rain-water.md)
-    * [valid palindrome](algorithms/lintcode/two-pointers/valid-palindrome.md)
+    * [Valid Palindrome](algorithms/lintcode/two-pointers/valid-palindrome.md)
+    * [Valid Palindrome II](algorithms/lintcode/two-pointers/valid-palindrome-ii.md)
     * [Interleaving positive and negative numbers](algorithms/lintcode/two-pointers/interleaving-positive-and-negative-numbers-1.md)
     * [intersection of two arrays](algorithms/lintcode/two-pointers/intersection-of-two-arrays.md)
     * [intersection of two arrays2](algorithms/lintcode/two-pointers/intersection-of-two-arrays2.md)
@@ -258,8 +267,6 @@
     * [Valid Number](algorithms/lintcode/math/valid-number.md)
     * [Sqrt\(x\)](algorithms/lintcode/math/sqrtx.md)
     * [Power of Three](algorithms/lintcode/math/power-of-three.md)
-* [Cracking the interviews](algorithms/cracking-the-interviews.md)
-* [Facebook](algorithms/facebook.md)
 
 ## Languages
 
