@@ -79,10 +79,13 @@
 ## Research
 
 * [Graph Embeding](research/graph-embeding/README.md)
+  * [Stochastic Data Acquisition for Answering Queries as Time Goes by](research/graph-embeding/stochastic-data-acquisition-for-answering-queries-as-time-goes-by.md)
   * [A Comprehensive Survey of Graph Embedding](research/graph-embeding/a-comprehensive-survey-of-graph-embedding.md)
   * [凑单算法-阿里巴巴](research/graph-embeding/cou-dan-suan-6cd5-a-li-ba-ba.md)
   * [Word2Vec](research/graph-embeding/word2vec.md)
-* [Stochastic Data Acquisition for Answering Queries as Time Goes by](research/stochastic-data-acquisition-for-answering-queries-as-time-goes-by.md)
+* [Knowlege Fusion](research/knowlege-fusion/README.md)
+  * [Tasks](research/knowlege-fusion/tasks/README.md)
+    * [Access KBs and their Ontology Graph](research/knowlege-fusion/tasks/access-kbs-and-their-ontology-graph.md)
 
 ## Algorithms
 
