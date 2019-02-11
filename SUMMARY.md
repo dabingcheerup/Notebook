@@ -4,7 +4,6 @@
 
 ## FullStack
 
-* [Introduction](fullstack/readme.md)
 * [FrontEnd](fullstack/javascript/README.md)
   * [Algorithms](fullstack/javascript/algorithms.md)
   * [error](fullstack/javascript/error.md)
@@ -85,6 +84,7 @@
   * [Word2Vec](research/graph-embeding/word2vec.md)
 * [Knowlege Fusion](research/knowlege-fusion/README.md)
   * [Tasks](research/knowlege-fusion/tasks/README.md)
+    * [wikidata](research/knowlege-fusion/tasks/wikidata.md)
     * [Access KBs and their Ontology Graph](research/knowlege-fusion/tasks/access-kbs-and-their-ontology-graph.md)
 
 ## Algorithms
@@ -309,4 +309,9 @@
 * [API Testing](qa/api-testing/README.md)
   * [Tools](qa/api-testing/tools/README.md)
     * [Postman](qa/api-testing/tools/postman.md)
+
+## Courses
+
+* [OS](courses/os/README.md)
+  * [OS Design](courses/os/os-design.md)
 

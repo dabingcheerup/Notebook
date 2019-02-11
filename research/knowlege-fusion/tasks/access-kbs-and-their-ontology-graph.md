@@ -69,6 +69,8 @@ Note: Eclipse prefixes the command with `mvn` automatically.
 
 ![Error when reading JSON for entity: Unexpected end of ZLIB input stream \(through reference chain: org.wikidata.wdtk.datamodel.implementation.ItemDocumentImpl\[&quot;claims&quot;\]-&amp;gt;java.util.LinkedHashMap\[&quot;P2856&quot;\]-&amp;gt;java.util.ArrayList\[0\]\) E](../../../.gitbook/assets/screen-shot-2019-01-27-at-3.08.41-pm.png)
 
+[https://stackoverflow.com/questions/8081392/java-extract-zip-unexpected-end-of-zlib-input-stream/18845169\#18845169](https://stackoverflow.com/questions/8081392/java-extract-zip-unexpected-end-of-zlib-input-stream/18845169#18845169)
+
 有用的链接
 
 {% embed url="https://interviewbubble.com/slf4j-failed-to-load-class-org-slf4j-impl-staticloggerbinder-slf4j-defaulting-to-no-operation-nop-logger-implementation-slf4j-see-http-www-slf4j-org-codes-htmlstaticloggerbinder-for-furth/" %}
@@ -129,6 +131,20 @@ Note: Eclipse prefixes the command with `mvn` automatically.
 9. [ ] how to generate directed graph
 
 尽量找别人做过的参考
+
+[https://stackoverflow.com/questions/7202450/adjacency-list-using-json-object](https://stackoverflow.com/questions/7202450/adjacency-list-using-json-object) 
+
+[https://codereview.stackexchange.com/questions/162185/adjacency-list-implementation-for-graph-in-java](https://codereview.stackexchange.com/questions/162185/adjacency-list-implementation-for-graph-in-java) 
+
+[https://blog.intenthq.com/blog/process-the-whole-wikidata-in-7minutes-with-your-pc-and-akka-streams](https://blog.intenthq.com/blog/process-the-whole-wikidata-in-7minutes-with-your-pc-and-akka-streams)   
+
+[https://algs4.cs.princeton.edu/42digraph/](https://algs4.cs.princeton.edu/42digraph/)   
+
+[https://bl.ocks.org/cjrd/6863459](https://bl.ocks.org/cjrd/6863459)  
+
+[https://stackoverflow.com/questions/35275877/generate-a-directed-graph-with-n-cycles](https://stackoverflow.com/questions/35275877/generate-a-directed-graph-with-n-cycles) 
+
+
 
 ## DBpedia
 
