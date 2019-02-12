@@ -1,6 +1,6 @@
 # wikidata
 
-## RDF - Digraph
+## Ontology - Digraph：Test1 Use sample truthy dump
 
 ### S1: Download RDF dumps \(Truthy\)
 
@@ -28,9 +28,8 @@
       =====================================================================
 2. **To Do List**
 
-* [ ] 读 [RDF exports of Wikidata](http://tools.wmflabs.org/wikidata-exports/rdf/)，了解怎么用wikidata toolkit 生以上RDF exports
-* [ ] 找到wikidata toolkit中生成RDF exports的代码，作修改，生成最新的RDF exports
-* [ ] 把生成的RDF exports 转成
+* 读 [RDF exports of Wikidata](http://tools.wmflabs.org/wikidata-exports/rdf/)，了解怎么用wikidata toolkit 生以上RDF exports
+* // 找到wikidata toolkit中生成RDF exports的代码，作修改，生成最新的RDF exports
 
 ### S2: Clean & Parse RDF 
 
@@ -39,11 +38,35 @@ RDF format: Using URIs for entities - [http://www.wikidata.org/entity/&lt;id&gt;
 * [ ] Use id to get label
 * [ ] then convert to triples: subject label, property label, object label
 
+### S2: Extract subclassOf / instanceOf - Ontology Graph
+
+* [ ] Only extract those triples having subclassOf and instanceOf
+
 ### S3: Triples - Digraph
 
+## Ontology - Digraph：Test2 Use  truthy dump
 
+### S1: Download RDF dumps \(Truthy\)
 
-### S4: Extract subclassOf / instanceOf - Ontology Graph
+#### 参考wikidata, parse compressed dump file, then write to compressed dump file
+
+1. Rewrite read and write function
+
+### S2: Clean & Parse RDF 
+
+RDF format: Using URIs for entities - [http://www.wikidata.org/entity/&lt;id&gt;](http://www.wikidata.org/entity/<id>)
+
+#### Extract subclassOf / instanceOf triples
+
+1. example triple: Q8 P31 Q34567 
+2. result format1: 8 34567
+   1. Remove "Q"  for memory concern
+3. result format2: happiness emotion
+   1. Use id to get label
+
+### S3: Triples - Digraph
+
+#### Implement digraph from parsed RDF by adjacency list
 
 
 
