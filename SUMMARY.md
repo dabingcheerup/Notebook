@@ -274,6 +274,7 @@
 ## Languages
 
 * [Java](languages/java/README.md)
+  * [snippets](languages/java/snippets.md)
   * [Overview](languages/java/overview/README.md)
     * [Naming Conventions](languages/java/overview/naming-conventions.md)
     * [JVM](languages/java/overview/jvm/README.md)
